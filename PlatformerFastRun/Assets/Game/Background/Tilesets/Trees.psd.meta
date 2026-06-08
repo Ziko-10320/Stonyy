@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: fb726168278cf0e46888984226bf8739
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 2a516d48f7614f24ab17d935ad9d6db9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: RoseOrange
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 471
+      width: 16
+      height: 17
+    spriteID: 3b255f562a6a93047bb06d0b7cf8fcc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 471}
+    spritePosition: {x: 503, y: 426}
+  - name: RoseWhite
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 478
+      width: 17
+      height: 16
+    spriteID: 4a15006d34b22514cb7bd0add18cd95f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 478}
+    spritePosition: {x: 461, y: 413}
+  - name: BushLight
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 414
+      width: 120
+      height: 80
+    spriteID: 14b5570359e7d1b40bdf72ef84cc3224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 414}
+    spritePosition: {x: 284, y: 503}
+  - name: BushDark
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 328
+      width: 127
+      height: 78
+    spriteID: be5496b57a5a5fc42b516c59b85bac28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 328}
+    spritePosition: {x: 432, y: 503}
+  - name: Shit1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 410
+      width: 34
+      height: 53
+    spriteID: d6721a831af3aa8428865b9b418c446f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 410}
+    spritePosition: {x: 579, y: 563}
+  - name: Shit2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 270
+      y: 4
+      width: 38
+      height: 60
+    spriteID: eec15f4a83f6e4c40a3550802f5ee8fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 270, y: 4}
+    spritePosition: {x: 644, y: 507}
+  - name: Shit3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 333
+      width: 64
+      height: 69
+    spriteID: 67520d3bdc76d5947a653afda03325eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 333}
+    spritePosition: {x: 578, y: 665}
+  - name: Leaves
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 410
+      width: 60
+      height: 60
+    spriteID: 21345b062d67a1843b17027c47bbbb79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 410}
+    spritePosition: {x: 436, y: 652}
+  - name: TallTree
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 4
+      width: 103
+      height: 321
+    spriteID: ce1b7566915b3e547a581b77065664b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 4}
+    spritePosition: {x: 579, y: 412}
+  - name: FatTree
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 147
+      height: 316
+    spriteID: d1cd3c25a51a7504b9f1fb44c7263f31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 363, y: 410}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Bushes
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c756cf54a24976c4f8a8e783484e8817
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: RoseOrange
+    spriteName: RoseOrange
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3b255f562a6a93047bb06d0b7cf8fcc5
+    layerID: 2
+    mosaicPosition: {x: 227, y: 471}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: RoseWhite
+    spriteName: RoseWhite
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4a15006d34b22514cb7bd0add18cd95f
+    layerID: 3
+    mosaicPosition: {x: 159, y: 478}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BushLight
+    spriteName: BushLight
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 14b5570359e7d1b40bdf72ef84cc3224
+    layerID: 5
+    mosaicPosition: {x: 4, y: 414}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BushDark
+    spriteName: BushDark
+    isGroup: 0
+    parentIndex: 0
+    spriteID: be5496b57a5a5fc42b516c59b85bac28
+    layerID: 6
+    mosaicPosition: {x: 4, y: 328}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Trees
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: cb8a0622e90253a4d854268130ef9c85
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shit1
+    spriteName: Shit1
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d6721a831af3aa8428865b9b418c446f
+    layerID: 8
+    mosaicPosition: {x: 227, y: 410}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shit2
+    spriteName: Shit2
+    isGroup: 0
+    parentIndex: 5
+    spriteID: eec15f4a83f6e4c40a3550802f5ee8fb
+    layerID: 9
+    mosaicPosition: {x: 270, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Shit3
+    spriteName: Shit3
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 67520d3bdc76d5947a653afda03325eb
+    layerID: 10
+    mosaicPosition: {x: 159, y: 333}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Leaves
+    spriteName: Leaves
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 21345b062d67a1843b17027c47bbbb79
+    layerID: 11
+    mosaicPosition: {x: 159, y: 410}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TallTree
+    spriteName: TallTree
+    isGroup: 0
+    parentIndex: 5
+    spriteID: ce1b7566915b3e547a581b77065664b7
+    layerID: 13
+    mosaicPosition: {x: 159, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FatTree
+    spriteName: FatTree
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d1cd3c25a51a7504b9f1fb44c7263f31
+    layerID: 15
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
