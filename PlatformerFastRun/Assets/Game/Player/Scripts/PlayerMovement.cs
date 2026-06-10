@@ -65,6 +65,30 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] TrailRenderer trail1Boost2;
     [SerializeField] TrailRenderer trail2Boost2;
 
+    [Header("Stick")]
+    [SerializeField] Transform stickSpawnPoint;
+    [SerializeField] GameObject stickPrefab;
+    [SerializeField] public Transform heldStickObject; // the child GO to enable/disable
+    [SerializeField] float stickThrowSpeed = 20f;
+    [SerializeField] float stickThrowHopVelocity = 10f;
+    bool hasStick;
+    public bool isCheckingStick;
+
+    [Header("Leaf")]
+    [SerializeField] public Transform heldLeafObject;
+    [SerializeField] float upwardDashVelocity = 18f;
+    [SerializeField] float upwardDashDuration = 0.3f;
+    [SerializeField] float upwardDashRunBlendTime = 0.3f;
+    [SerializeField] float upwardDashEndVelocity = 5f;   // small upward momentum after dash
+    [SerializeField] float upwardDashEndGravity = 3f;     // how fast it falls off
+    float upwardDashBlendTimer;
+    bool isBlendingToRun;
+    public bool isCheckingLeaf;
+    bool hasLeaf;
+    bool isUpwardDashing;
+    float upwardDashTimer;
+    bool pauseAutoRun;
+
     // ── Animator triggers ─────────────────────────────────────────────────
     const string ANIM_JUMP = "Jump";
     const string ANIM_FALL = "Fall";
@@ -75,8 +99,9 @@ public class PlayerMovement : MonoBehaviour
     const string ANIM_IDLE_WALL = "IdleWall";
     const string ANIM_SLIDE = "Slide";
     const string ANIM_DIAGONAL_SLIDE = "DiagonalSlide";
+    const string ANIM_UPWARD_DASH = "UpwardDash";
     // ── State ─────────────────────────────────────────────────────────────
-    enum State { Run, Jump, Fall, AirDash, Land, WallSlide, Slide, AirSlide }
+    enum State { Run, Jump, Fall, AirDash, Land, WallSlide, Slide, AirSlide, UpwardDash }
     // ── Private references ────────────────────────────────────────────────
     Rigidbody2D rb;
     Animator anim;
@@ -242,6 +267,7 @@ public class PlayerMovement : MonoBehaviour
             case State.WallSlide: HandleWallSlide(); break;
             case State.Slide: HandleSlide(); break;
             case State.AirSlide: HandleAirSlide(); break;
+            case State.UpwardDash: HandleUpwardDash(); break;
         }
 
         // Gravity scale: hold = low, release/fall = high → snappy SMB feel
@@ -273,6 +299,12 @@ public class PlayerMovement : MonoBehaviour
         if (currentState == State.AirSlide)
         {
             rb.linearVelocity = new Vector2(runSpeed * runDirection, -airSlamSpeed);
+            return;
+        }
+        if (currentState == State.UpwardDash)
+        {
+            if (pauseAutoRun)
+                rb.linearVelocity = new Vector2(0f, upwardDashVelocity);
             return;
         }
         if (isWallClimbing)
@@ -322,12 +354,28 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
         // Horizontal: always auto-run
-        float speedMultiplier = 1f;
-        if (isSlideBoostActive) speedMultiplier += slideSpeedBoostPercent / 100f;
-        if (isAirDashBoostActive) speedMultiplier += airDashSpeedBoostPercent / 100f;
-        float currentSpeed = runSpeed * speedMultiplier;
-        rb.linearVelocity = new Vector2(currentSpeed * runDirection, rb.linearVelocity.y);
+        if (!pauseAutoRun)
+        {
+            float speedMultiplier = 1f;
+            if (isSlideBoostActive) speedMultiplier += slideSpeedBoostPercent / 100f;
+            if (isAirDashBoostActive) speedMultiplier += airDashSpeedBoostPercent / 100f;
+            float targetSpeed = runSpeed * speedMultiplier * runDirection;
 
+            float newX;
+            if (isBlendingToRun)
+            {
+                upwardDashBlendTimer += Time.fixedDeltaTime;
+                float t = Mathf.Clamp01(upwardDashBlendTimer / upwardDashRunBlendTime);
+                newX = Mathf.Lerp(rb.linearVelocity.x, targetSpeed, t);
+                if (t >= 1f) isBlendingToRun = false;
+            }
+            else
+            {
+                newX = targetSpeed;
+            }
+
+            rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
+        }
         // Jump cut: button released while rising → snap Y down instantly
         if (!btnHeld && !jumpCutApplied && rb.linearVelocity.y > jumpCutVelocityY)
         {
@@ -383,6 +431,11 @@ public class PlayerMovement : MonoBehaviour
             StartAirSlide();
             return;
         }
+        if (btnPressedThisFrame && hasLeaf)
+        {
+            StartUpwardDash();
+            return;
+        }
         // Air dash
         if (btnPressedThisFrame && canAirDash)
         {
@@ -413,6 +466,11 @@ public class PlayerMovement : MonoBehaviour
         if (slideBtnHeld)
         {
             StartAirSlide();
+            return;
+        }
+        if (btnPressedThisFrame && hasLeaf)
+        {
+            StartUpwardDash();
             return;
         }
         // Air dash
@@ -472,6 +530,11 @@ public class PlayerMovement : MonoBehaviour
 
     void StartAirDash()
     {
+        if (hasStick)
+        {
+            ThrowStick();
+            return;
+        }
         canAirDash = false;
         isDashing = true;
         dashTimer = airDashDuration;
@@ -675,6 +738,100 @@ public class PlayerMovement : MonoBehaviour
         trail.emitting = false;
         yield return new WaitForSeconds(trail.time); // wait for existing trail to fade
         trail.gameObject.SetActive(false);
+    }
+
+    public void PickupStick(GameObject stickInWorld)
+    {
+        if (hasStick) return;
+        hasStick = true;
+        stickInWorld.SetActive(false);
+        heldStickObject.gameObject.SetActive(true);
+    }
+
+    void ThrowStick()
+    {
+        hasStick = false;
+        heldStickObject.gameObject.SetActive(false);
+
+        GameObject thrown = Instantiate(stickPrefab, stickSpawnPoint.position, Quaternion.identity);
+        Rigidbody2D stickRb = thrown.GetComponent<Rigidbody2D>();
+        if (stickRb != null)
+            stickRb.linearVelocity = new Vector2(stickThrowSpeed * runDirection, 0f);
+
+        // Hop up over the stick
+        jumpCutApplied = false;
+        isHoldingJump = true;
+        jumpHoldTimer = maxHoldTime;
+        canAirDash = true;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, stickThrowHopVelocity);
+        ChangeState(State.Jump);
+    }
+    public void StartRespawn(GameObject obj, float delay)
+    {
+        StartCoroutine(RespawnAfterDelay(obj, delay));
+    }
+
+    IEnumerator RespawnAfterDelay(GameObject obj, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        obj.SetActive(true);
+    }
+    public void StartStickCheck() => isCheckingStick = true;
+    public void StopStickCheck() => isCheckingStick = false;
+
+    public void StartLeafCheck() => isCheckingLeaf = true;
+    public void StopLeafCheck() => isCheckingLeaf = false;
+    public void PickupLeaf(GameObject leafInWorld)
+    {
+        if (hasLeaf) return;
+        hasLeaf = true;
+        leafInWorld.SetActive(false);
+        if (heldLeafObject != null)
+            heldLeafObject.gameObject.SetActive(true);
+    }
+
+    void StartUpwardDash()
+    {
+        hasLeaf = false;
+        isUpwardDashing = true;
+        pauseAutoRun = true;
+        isHoldingJump = false;
+        jumpHoldTimer = 0f;
+        if (heldLeafObject != null)
+            heldLeafObject.gameObject.SetActive(false);
+        rb.linearVelocity = new Vector2(0f, upwardDashVelocity);
+        anim.SetTrigger(ANIM_UPWARD_DASH);
+        ChangeState(State.UpwardDash);
+    }
+
+    void HandleUpwardDash()
+    {
+        if (isGrounded)
+        {
+            pauseAutoRun = false;
+            isUpwardDashing = false;
+            Land();
+        }
+    }
+
+    // Called by animation event at start of UpwardDash anim
+    public void OnUpwardDashStart()
+    {
+        pauseAutoRun = true;
+    }
+
+    // Called by animation event at end of UpwardDash anim
+    public void OnUpwardDashEnd()
+    {
+        isUpwardDashing = false;
+        pauseAutoRun = false;
+        isBlendingToRun = true;
+        upwardDashBlendTimer = 0f;
+        isHoldingJump = false;
+        jumpHoldTimer = 0f;
+        rb.gravityScale = upwardDashEndGravity;
+        rb.linearVelocity = new Vector2(0f, upwardDashEndVelocity);
+        ChangeState(State.Fall);
     }
     // ── Gizmos ────────────────────────────────────────────────────────────
 
