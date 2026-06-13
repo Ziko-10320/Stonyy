@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: c16d2224c3d12b34486073cef1e278c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7219906509913254026
+    second: RespawnExplosionFleaSheet_0
+  - first:
+      213: 3503868527558465676
+    second: RespawnExplosionFleaSheet_1
+  - first:
+      213: -27404803817824175
+    second: RespawnExplosionFleaSheet_2
+  - first:
+      213: 6153996790311715941
+    second: RespawnExplosionFleaSheet_3
+  - first:
+      213: -8699320742339402456
+    second: RespawnExplosionFleaSheet_4
+  - first:
+      213: 7434104493688006511
+    second: RespawnExplosionFleaSheet_5
+  - first:
+      213: 4221461576745675846
+    second: RespawnExplosionFleaSheet_6
+  - first:
+      213: -1937976116277119513
+    second: RespawnExplosionFleaSheet_7
+  - first:
+      213: -6105087009182625825
+    second: RespawnExplosionFleaSheet_8
+  - first:
+      213: -8352307696747221991
+    second: RespawnExplosionFleaSheet_9
+  - first:
+      213: 8988511728967764285
+    second: RespawnExplosionFleaSheet_10
+  - first:
+      213: -3345668620127439430
+    second: RespawnExplosionFleaSheet_11
+  - first:
+      213: -8561817156767106491
+    second: RespawnExplosionFleaSheet_12
+  - first:
+      213: 1957756091648911161
+    second: RespawnExplosionFleaSheet_13
+  - first:
+      213: 1623919268992797231
+    second: RespawnExplosionFleaSheet_14
+  - first:
+      213: -7590800487177886217
+    second: RespawnExplosionFleaSheet_15
+  - first:
+      213: 7488651948451801326
+    second: RespawnExplosionFleaSheet_16
+  - first:
+      213: 4043597961474458096
+    second: RespawnExplosionFleaSheet_17
+  - first:
+      213: 6284596993868695951
+    second: RespawnExplosionFleaSheet_18
+  - first:
+      213: 5731258783049847877
+    second: RespawnExplosionFleaSheet_19
+  - first:
+      213: -9108997396514314611
+    second: RespawnExplosionFleaSheet_20
+  - first:
+      213: 7059065047281498765
+    second: RespawnExplosionFleaSheet_21
+  - first:
+      213: 1838973777658164093
+    second: RespawnExplosionFleaSheet_22
+  - first:
+      213: 3189327011367492017
+    second: RespawnExplosionFleaSheet_23
+  - first:
+      213: -4537298278708164035
+    second: RespawnExplosionFleaSheet_24
+  - first:
+      213: 4137880434059205163
+    second: RespawnExplosionFleaSheet_25
+  - first:
+      213: 6651863277354221989
+    second: RespawnExplosionFleaSheet_26
+  - first:
+      213: 2952863985712728006
+    second: RespawnExplosionFleaSheet_27
+  - first:
+      213: -5979602616255905889
+    second: RespawnExplosionFleaSheet_28
+  - first:
+      213: 2686408696333929234
+    second: RespawnExplosionFleaSheet_29
+  - first:
+      213: -5932170216255218035
+    second: RespawnExplosionFleaSheet_30
+  - first:
+      213: -7831500028984901015
+    second: RespawnExplosionFleaSheet_31
+  - first:
+      213: 1779597531388994766
+    second: RespawnExplosionFleaSheet_32
+  - first:
+      213: -8695036571202639278
+    second: RespawnExplosionFleaSheet_33
+  - first:
+      213: -8292588206937973987
+    second: RespawnExplosionFleaSheet_34
+  - first:
+      213: 925650166479703046
+    second: RespawnExplosionFleaSheet_35
+  - first:
+      213: -711148009083180236
+    second: RespawnExplosionFleaSheet_36
+  - first:
+      213: -2760326442142727291
+    second: RespawnExplosionFleaSheet_37
+  - first:
+      213: -4112078048419441334
+    second: RespawnExplosionFleaSheet_38
+  - first:
+      213: -1136042474248963688
+    second: RespawnExplosionFleaSheet_39
+  - first:
+      213: -5609727419508139828
+    second: RespawnExplosionFleaSheet_40
+  - first:
+      213: 431375065418070187
+    second: RespawnExplosionFleaSheet_41
+  - first:
+      213: 3025734008347852530
+    second: RespawnExplosionFleaSheet_42
+  - first:
+      213: -587020488867827347
+    second: RespawnExplosionFleaSheet_43
+  - first:
+      213: 1501135845129310019
+    second: RespawnExplosionFleaSheet_44
+  - first:
+      213: -9186146558102148679
+    second: RespawnExplosionFleaSheet_45
+  - first:
+      213: 5100364677339238333
+    second: RespawnExplosionFleaSheet_46
+  - first:
+      213: 8311581508988341901
+    second: RespawnExplosionFleaSheet_47
+  - first:
+      213: -6054175776008515775
+    second: RespawnExplosionFleaSheet_48
+  - first:
+      213: -2886682321688604126
+    second: RespawnExplosionFleaSheet_49
+  - first:
+      213: 1431836060847213250
+    second: RespawnExplosionFleaSheet_50
+  - first:
+      213: -3174260777259189580
+    second: RespawnExplosionFleaSheet_51
+  - first:
+      213: 5794501300218286353
+    second: RespawnExplosionFleaSheet_52
+  - first:
+      213: -4696527100315302595
+    second: RespawnExplosionFleaSheet_53
+  - first:
+      213: 5294376292677871600
+    second: RespawnExplosionFleaSheet_54
+  - first:
+      213: 5407515020108354147
+    second: RespawnExplosionFleaSheet_55
+  - first:
+      213: -376731073458141379
+    second: RespawnExplosionFleaSheet_56
+  - first:
+      213: -2195725215165278147
+    second: RespawnExplosionFleaSheet_57
+  - first:
+      213: -3009559085886862457
+    second: RespawnExplosionFleaSheet_58
+  - first:
+      213: -4128654697931782246
+    second: RespawnExplosionFleaSheet_59
+  - first:
+      213: 1970073628138032008
+    second: RespawnExplosionFleaSheet_60
+  - first:
+      213: -1370597924777992984
+    second: RespawnExplosionFleaSheet_61
+  - first:
+      213: 5163239186249841332
+    second: RespawnExplosionFleaSheet_62
+  - first:
+      213: 8150947548920076034
+    second: RespawnExplosionFleaSheet_63
+  - first:
+      213: 5842687974885516427
+    second: RespawnExplosionFleaSheet_64
+  - first:
+      213: 1177326049581549304
+    second: RespawnExplosionFleaSheet_65
+  - first:
+      213: 8977231543076118044
+    second: RespawnExplosionFleaSheet_66
+  - first:
+      213: 4629200581108428586
+    second: RespawnExplosionFleaSheet_67
+  - first:
+      213: 9001262192726345758
+    second: RespawnExplosionFleaSheet_68
+  - first:
+      213: 3671661170709342413
+    second: RespawnExplosionFleaSheet_69
+  - first:
+      213: -2563588507974272094
+    second: RespawnExplosionFleaSheet_70
+  - first:
+      213: 6568858788627098087
+    second: RespawnExplosionFleaSheet_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_0
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2039
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677171d284dbdcb90800000000000000
+      internalID: -7219906509913254026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2019
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c881bcc8cdd30a030800000000000000
+      internalID: 3503868527558465676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_2
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1988
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150ac43e973ae9ff0800000000000000
+      internalID: -27404803817824175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_3
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1915
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5648c6bb973676550800000000000000
+      internalID: 6153996790311715941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 1883
+        width: 53
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8252ca530edc54780800000000000000
+      internalID: -8699320742339402456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_5
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 1841
+        width: 104
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67a86146ae3b2760800000000000000
+      internalID: 7434104493688006511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4363
+        y: 1975
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ce2e210f4a59a30800000000000000
+      internalID: 4221461576745675846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 1808
+        width: 125
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e57c167dfcea15e0800000000000000
+      internalID: -1937976116277119513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1895
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf41d616bf564ba0800000000000000
+      internalID: -6105087009182625825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1678
+        width: 76
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cee98f664a61c80800000000000000
+      internalID: -8352307696747221991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_10
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 1887
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d394e885bcb9dbc70800000000000000
+      internalID: 8988511728967764285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_11
+      rect:
+        serializedVersion: 2
+        x: 4283
+        y: 1670
+        width: 118
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5f129bd1cc191d0800000000000000
+      internalID: -3345668620127439430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_12
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 1871
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a3d0b88a05e2980800000000000000
+      internalID: -8561817156767106491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_13
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1854
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937279feac85b2b10800000000000000
+      internalID: 1957756091648911161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1694
+        width: 50
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a4a34a8f1598610800000000000000
+      internalID: 1623919268992797231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1849
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f566e8bc2f08a690800000000000000
+      internalID: -7590800487177886217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 1841
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8a10245490de760800000000000000
+      internalID: 7488651948451801326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_17
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 1829
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1cd2c0ceebd1830800000000000000
+      internalID: 4043597961474458096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1816
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8908003baf573750800000000000000
+      internalID: 6284596993868695951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3152
+        y: 1794
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54416876f75898f40800000000000000
+      internalID: 5731258783049847877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 1813
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d866ec02127569180800000000000000
+      internalID: -9108997396514314611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 1805
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8af69d8246d6f160800000000000000
+      internalID: 7059065047281498765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_22
+      rect:
+        serializedVersion: 2
+        x: 4542
+        y: 1818
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73b29058e8558910800000000000000
+      internalID: 1838973777658164093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_23
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1724
+        width: 34
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b91e11e404c24c20800000000000000
+      internalID: 3189327011367492017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_24
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1802
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3acb9151474801c0800000000000000
+      internalID: -4537298278708164035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_25
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1661
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a5323d454bc6930800000000000000
+      internalID: 4137880434059205163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1668
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a10a2d586a205c50800000000000000
+      internalID: 6651863277354221989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 1649
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7837a662eaaf820800000000000000
+      internalID: 2952863985712728006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_28
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1601
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ff1101a1f240da0800000000000000
+      internalID: -5979602616255905889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 1642
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b0182e97a084520800000000000000
+      internalID: 2686408696333929234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_30
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1567
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e94f84e92bcada0800000000000000
+      internalID: -5932170216255218035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_31
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1538
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962c4e9773ce05390800000000000000
+      internalID: -7831500028984901015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_32
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 1548
+        width: 109
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec46a9da68662b810800000000000000
+      internalID: 1779597531388994766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1520
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aaf688e46055780800000000000000
+      internalID: -8695036571202639278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 1519
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b5ed836fecaec80800000000000000
+      internalID: -8292588206937973987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_35
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1490
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ccd4f0ce198dc00800000000000000
+      internalID: 925650166479703046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_36
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1499
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43beedf47ae7126f0800000000000000
+      internalID: -711148009083180236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_37
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1227
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58307f7c9b951b9d0800000000000000
+      internalID: -2760326442142727291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_38
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1067
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45174b3dc6fee6c0800000000000000
+      internalID: -4112078048419441334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_39
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1304
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89972a08367fb30f0800000000000000
+      internalID: -1136042474248963688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_40
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1043
+        width: 220
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8d27132ae3622b0800000000000000
+      internalID: -5609727419508139828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_41
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 1283
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba87433265d8cf500800000000000000
+      internalID: 431375065418070187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 1029
+        width: 224
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe7460bc019df920800000000000000
+      internalID: 3025734008347852530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_43
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 883
+        width: 278
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61382db9fb7ad7f0800000000000000
+      internalID: -587020488867827347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1213
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fc988091b15d410800000000000000
+      internalID: 1501135845129310019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 977
+        width: 257
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9e4ad2060448080800000000000000
+      internalID: -9186146558102148679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_46
+      rect:
+        serializedVersion: 2
+        x: 4351
+        y: 1271
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf41c1b6a228c640800000000000000
+      internalID: 5100364677339238333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 952
+        width: 147
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e84f4885ba85370800000000000000
+      internalID: 8311581508988341901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_48
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1103
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fcc37453f3bfba0800000000000000
+      internalID: -6054175776008515775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 962
+        width: 185
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222d95409b170f7d0800000000000000
+      internalID: -2886682321688604126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 914
+        width: 91
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca8467af47eed310800000000000000
+      internalID: 1431836060847213250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 859
+        width: 104
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bab20b14a2c2f3d0800000000000000
+      internalID: -3174260777259189580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_52
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 978
+        width: 220
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111dc026b343a6050800000000000000
+      internalID: 5794501300218286353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_53
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 911
+        width: 51
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3506bb4c7592deb0800000000000000
+      internalID: -4696527100315302595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_54
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1028
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f76058ff27697940800000000000000
+      internalID: 5294376292677871600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_55
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 803
+        width: 159
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362d523b24a5b0b40800000000000000
+      internalID: 5407515020108354147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_56
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 1031
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d370daea51595caf0800000000000000
+      internalID: -376731073458141379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_57
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 840
+        width: 159
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3894bddc873781e0800000000000000
+      internalID: -2195725215165278147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_58
+      rect:
+        serializedVersion: 2
+        x: 4694
+        y: 1031
+        width: 73
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b0a2be4f5eb36d0800000000000000
+      internalID: -3009559085886862457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_59
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 911
+        width: 44
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9747814d6214b6c0800000000000000
+      internalID: -4128654697931782246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_60
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 830
+        width: 109
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4882e68b175b10800000000000000
+      internalID: 1970073628138032008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_61
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 916
+        width: 53
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec58bbf278aafce0800000000000000
+      internalID: -1370597924777992984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 933
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba7cc21fa287a740800000000000000
+      internalID: 5163239186249841332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_63
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 920
+        width: 47
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207d8343c9bfd1170800000000000000
+      internalID: 8150947548920076034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_64
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 956
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b846f7cd1c5651150800000000000000
+      internalID: 5842687974885516427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_65
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 842
+        width: 111
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f64f1aedc3b65010800000000000000
+      internalID: 1177326049581549304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 918
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1edb776688859c70800000000000000
+      internalID: 8977231543076118044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_67
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 177
+        width: 436
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2feff6e6693e3040800000000000000
+      internalID: 4629200581108428586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_68
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 167
+        width: 156
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e188b970648eaec70800000000000000
+      internalID: 9001262192726345758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 210
+        width: 378
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8a9b7a16c54f230800000000000000
+      internalID: 3671661170709342413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_70
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 285
+        width: 226
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab7bef95dd4c6cd0800000000000000
+      internalID: -2563588507974272094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RespawnExplosionFleaSheet_71
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 302
+        width: 192
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e922d3d346492b50800000000000000
+      internalID: 6568858788627098087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RespawnExplosionFleaSheet_0: -7219906509913254026
+      RespawnExplosionFleaSheet_1: 3503868527558465676
+      RespawnExplosionFleaSheet_10: 8988511728967764285
+      RespawnExplosionFleaSheet_11: -3345668620127439430
+      RespawnExplosionFleaSheet_12: -8561817156767106491
+      RespawnExplosionFleaSheet_13: 1957756091648911161
+      RespawnExplosionFleaSheet_14: 1623919268992797231
+      RespawnExplosionFleaSheet_15: -7590800487177886217
+      RespawnExplosionFleaSheet_16: 7488651948451801326
+      RespawnExplosionFleaSheet_17: 4043597961474458096
+      RespawnExplosionFleaSheet_18: 6284596993868695951
+      RespawnExplosionFleaSheet_19: 5731258783049847877
+      RespawnExplosionFleaSheet_2: -27404803817824175
+      RespawnExplosionFleaSheet_20: -9108997396514314611
+      RespawnExplosionFleaSheet_21: 7059065047281498765
+      RespawnExplosionFleaSheet_22: 1838973777658164093
+      RespawnExplosionFleaSheet_23: 3189327011367492017
+      RespawnExplosionFleaSheet_24: -4537298278708164035
+      RespawnExplosionFleaSheet_25: 4137880434059205163
+      RespawnExplosionFleaSheet_26: 6651863277354221989
+      RespawnExplosionFleaSheet_27: 2952863985712728006
+      RespawnExplosionFleaSheet_28: -5979602616255905889
+      RespawnExplosionFleaSheet_29: 2686408696333929234
+      RespawnExplosionFleaSheet_3: 6153996790311715941
+      RespawnExplosionFleaSheet_30: -5932170216255218035
+      RespawnExplosionFleaSheet_31: -7831500028984901015
+      RespawnExplosionFleaSheet_32: 1779597531388994766
+      RespawnExplosionFleaSheet_33: -8695036571202639278
+      RespawnExplosionFleaSheet_34: -8292588206937973987
+      RespawnExplosionFleaSheet_35: 925650166479703046
+      RespawnExplosionFleaSheet_36: -711148009083180236
+      RespawnExplosionFleaSheet_37: -2760326442142727291
+      RespawnExplosionFleaSheet_38: -4112078048419441334
+      RespawnExplosionFleaSheet_39: -1136042474248963688
+      RespawnExplosionFleaSheet_4: -8699320742339402456
+      RespawnExplosionFleaSheet_40: -5609727419508139828
+      RespawnExplosionFleaSheet_41: 431375065418070187
+      RespawnExplosionFleaSheet_42: 3025734008347852530
+      RespawnExplosionFleaSheet_43: -587020488867827347
+      RespawnExplosionFleaSheet_44: 1501135845129310019
+      RespawnExplosionFleaSheet_45: -9186146558102148679
+      RespawnExplosionFleaSheet_46: 5100364677339238333
+      RespawnExplosionFleaSheet_47: 8311581508988341901
+      RespawnExplosionFleaSheet_48: -6054175776008515775
+      RespawnExplosionFleaSheet_49: -2886682321688604126
+      RespawnExplosionFleaSheet_5: 7434104493688006511
+      RespawnExplosionFleaSheet_50: 1431836060847213250
+      RespawnExplosionFleaSheet_51: -3174260777259189580
+      RespawnExplosionFleaSheet_52: 5794501300218286353
+      RespawnExplosionFleaSheet_53: -4696527100315302595
+      RespawnExplosionFleaSheet_54: 5294376292677871600
+      RespawnExplosionFleaSheet_55: 5407515020108354147
+      RespawnExplosionFleaSheet_56: -376731073458141379
+      RespawnExplosionFleaSheet_57: -2195725215165278147
+      RespawnExplosionFleaSheet_58: -3009559085886862457
+      RespawnExplosionFleaSheet_59: -4128654697931782246
+      RespawnExplosionFleaSheet_6: 4221461576745675846
+      RespawnExplosionFleaSheet_60: 1970073628138032008
+      RespawnExplosionFleaSheet_61: -1370597924777992984
+      RespawnExplosionFleaSheet_62: 5163239186249841332
+      RespawnExplosionFleaSheet_63: 8150947548920076034
+      RespawnExplosionFleaSheet_64: 5842687974885516427
+      RespawnExplosionFleaSheet_65: 1177326049581549304
+      RespawnExplosionFleaSheet_66: 8977231543076118044
+      RespawnExplosionFleaSheet_67: 4629200581108428586
+      RespawnExplosionFleaSheet_68: 9001262192726345758
+      RespawnExplosionFleaSheet_69: 3671661170709342413
+      RespawnExplosionFleaSheet_7: -1937976116277119513
+      RespawnExplosionFleaSheet_70: -2563588507974272094
+      RespawnExplosionFleaSheet_71: 6568858788627098087
+      RespawnExplosionFleaSheet_8: -6105087009182625825
+      RespawnExplosionFleaSheet_9: -8352307696747221991
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

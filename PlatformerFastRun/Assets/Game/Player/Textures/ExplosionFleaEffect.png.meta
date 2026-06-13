@@ -1,0 +1,2015 @@
+fileFormatVersion: 2
+guid: 0c0dc900d00e92044a531bc5054c5fc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3241332627219451344
+    second: ExplosionFleaEffect_0
+  - first:
+      213: -3698369649197971821
+    second: ExplosionFleaEffect_1
+  - first:
+      213: -8464696169854109773
+    second: ExplosionFleaEffect_2
+  - first:
+      213: -1240467800024499356
+    second: ExplosionFleaEffect_3
+  - first:
+      213: -4459712327529733501
+    second: ExplosionFleaEffect_4
+  - first:
+      213: 7989923498241945017
+    second: ExplosionFleaEffect_5
+  - first:
+      213: -2729445288244715784
+    second: ExplosionFleaEffect_6
+  - first:
+      213: 4246854505611660336
+    second: ExplosionFleaEffect_7
+  - first:
+      213: 8142938452395956054
+    second: ExplosionFleaEffect_8
+  - first:
+      213: -3623085681218627221
+    second: ExplosionFleaEffect_9
+  - first:
+      213: 4524598295069964057
+    second: ExplosionFleaEffect_10
+  - first:
+      213: 1137472165986630590
+    second: ExplosionFleaEffect_11
+  - first:
+      213: -6480521668002530672
+    second: ExplosionFleaEffect_12
+  - first:
+      213: 1014427039633289055
+    second: ExplosionFleaEffect_13
+  - first:
+      213: 715572099710337289
+    second: ExplosionFleaEffect_14
+  - first:
+      213: -2335868359384610906
+    second: ExplosionFleaEffect_15
+  - first:
+      213: 7484483587796215052
+    second: ExplosionFleaEffect_16
+  - first:
+      213: 4785058946676871671
+    second: ExplosionFleaEffect_17
+  - first:
+      213: -3890609609419421286
+    second: ExplosionFleaEffect_18
+  - first:
+      213: -5913207573287993718
+    second: ExplosionFleaEffect_19
+  - first:
+      213: 3623627334336204085
+    second: ExplosionFleaEffect_20
+  - first:
+      213: 7483937793240581126
+    second: ExplosionFleaEffect_21
+  - first:
+      213: 6545157285225779556
+    second: ExplosionFleaEffect_22
+  - first:
+      213: 4482072457728907727
+    second: ExplosionFleaEffect_23
+  - first:
+      213: -1773754910293475210
+    second: ExplosionFleaEffect_24
+  - first:
+      213: 741589647214089614
+    second: ExplosionFleaEffect_25
+  - first:
+      213: 1639559976372979530
+    second: ExplosionFleaEffect_26
+  - first:
+      213: -8356167333406456440
+    second: ExplosionFleaEffect_27
+  - first:
+      213: 7282508527792401545
+    second: ExplosionFleaEffect_28
+  - first:
+      213: 733712604774687895
+    second: ExplosionFleaEffect_29
+  - first:
+      213: -491592128837299826
+    second: ExplosionFleaEffect_30
+  - first:
+      213: -8546650385251220983
+    second: ExplosionFleaEffect_31
+  - first:
+      213: -8831708528659527549
+    second: ExplosionFleaEffect_32
+  - first:
+      213: -1907245007462240640
+    second: ExplosionFleaEffect_33
+  - first:
+      213: 2405191230157177412
+    second: ExplosionFleaEffect_34
+  - first:
+      213: 3678443371717550483
+    second: ExplosionFleaEffect_35
+  - first:
+      213: -530131483729368869
+    second: ExplosionFleaEffect_36
+  - first:
+      213: -5801630618647485321
+    second: ExplosionFleaEffect_37
+  - first:
+      213: 2119027162319714335
+    second: ExplosionFleaEffect_38
+  - first:
+      213: -6385277022256986902
+    second: ExplosionFleaEffect_39
+  - first:
+      213: 5265177554595225541
+    second: ExplosionFleaEffect_40
+  - first:
+      213: 6520373140162812116
+    second: ExplosionFleaEffect_41
+  - first:
+      213: -7771373077403970530
+    second: ExplosionFleaEffect_42
+  - first:
+      213: -6035663139360014436
+    second: ExplosionFleaEffect_43
+  - first:
+      213: -8152610691790606237
+    second: ExplosionFleaEffect_44
+  - first:
+      213: 4944186348907176423
+    second: ExplosionFleaEffect_45
+  - first:
+      213: 645745007593344071
+    second: ExplosionFleaEffect_46
+  - first:
+      213: 6787031095510975139
+    second: ExplosionFleaEffect_47
+  - first:
+      213: -306705004704306473
+    second: ExplosionFleaEffect_48
+  - first:
+      213: 4068206605014335754
+    second: ExplosionFleaEffect_49
+  - first:
+      213: -7948880998300781192
+    second: ExplosionFleaEffect_50
+  - first:
+      213: -4922234791408492324
+    second: ExplosionFleaEffect_51
+  - first:
+      213: 6072597814326967308
+    second: ExplosionFleaEffect_52
+  - first:
+      213: 5504120199864242571
+    second: ExplosionFleaEffect_53
+  - first:
+      213: 5511024909083396930
+    second: ExplosionFleaEffect_54
+  - first:
+      213: -3831618612859928527
+    second: ExplosionFleaEffect_55
+  - first:
+      213: -1493716634401499173
+    second: ExplosionFleaEffect_56
+  - first:
+      213: 7304987212409749368
+    second: ExplosionFleaEffect_57
+  - first:
+      213: 4803720613255355338
+    second: ExplosionFleaEffect_58
+  - first:
+      213: 7666075157727870046
+    second: ExplosionFleaEffect_59
+  - first:
+      213: 7820004805657445011
+    second: ExplosionFleaEffect_60
+  - first:
+      213: -5681679396258245565
+    second: ExplosionFleaEffect_61
+  - first:
+      213: -8256396806813398816
+    second: ExplosionFleaEffect_62
+  - first:
+      213: -7989230165115184846
+    second: ExplosionFleaEffect_63
+  - first:
+      213: -68448524110906285
+    second: ExplosionFleaEffect_64
+  - first:
+      213: -6018976215869279936
+    second: ExplosionFleaEffect_65
+  - first:
+      213: -2420308103787617206
+    second: ExplosionFleaEffect_66
+  - first:
+      213: 7252102368713471430
+    second: ExplosionFleaEffect_67
+  - first:
+      213: 5906296584244308666
+    second: ExplosionFleaEffect_68
+  - first:
+      213: 5665455160854978800
+    second: ExplosionFleaEffect_69
+  - first:
+      213: -4740027903371599991
+    second: ExplosionFleaEffect_70
+  - first:
+      213: -6426825225542254809
+    second: ExplosionFleaEffect_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_0
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1742
+        width: 192
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03273bb16297403d0800000000000000
+      internalID: -3241332627219451344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_1
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1725
+        width: 226
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396087b1660ccacc0800000000000000
+      internalID: -3698369649197971821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_2
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 1650
+        width: 378
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b77c307eab578a80800000000000000
+      internalID: -8464696169854109773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_3
+      rect:
+        serializedVersion: 2
+        x: 4271
+        y: 1617
+        width: 436
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bba30bb19f8cee0800000000000000
+      internalID: -1240467800024499356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_4
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 1607
+        width: 156
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382e825444beb12c0800000000000000
+      internalID: -4459712327529733501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_5
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 883
+        width: 278
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bde147d619e1ee60800000000000000
+      internalID: 7989923498241945017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_6
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1283
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe5f48b8ff0f1ad0800000000000000
+      internalID: -2729445288244715784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_7
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1029
+        width: 224
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c00cb0cabdfea30800000000000000
+      internalID: 4246854505611660336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_8
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 1304
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6571eea1167810170800000000000000
+      internalID: 8142938452395956054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_9
+      rect:
+        serializedVersion: 2
+        x: 3236
+        y: 1043
+        width: 220
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69d824d4c638bdc0800000000000000
+      internalID: -3623085681218627221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_10
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 1227
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917bbf05d2a9ace30800000000000000
+      internalID: 4524598295069964057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_11
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 1067
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbf68b88ec19cf00800000000000000
+      internalID: 1137472165986630590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1271
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09abc73d0ef8016a0800000000000000
+      internalID: -6480521668002530672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 977
+        width: 257
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa4e39408f31e00800000000000000
+      internalID: 1014427039633289055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_14
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1213
+        width: 104
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9014a6e88093ee900800000000000000
+      internalID: 715572099710337289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 978
+        width: 220
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a74ec46a14559fd0800000000000000
+      internalID: -2335868359384610906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_16
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 859
+        width: 104
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05a5d92b2a3ed760800000000000000
+      internalID: 7484483587796215052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_17
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 962
+        width: 185
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1daf972c1f76240800000000000000
+      internalID: 4785058946676871671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_18
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 914
+        width: 91
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9985de6c27c10ac0800000000000000
+      internalID: -3890609609419421286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_19
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 952
+        width: 147
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ef407aa0110fda0800000000000000
+      internalID: -5913207573287993718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_20
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 1103
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d418d9cd5b94230800000000000000
+      internalID: 3623627334336204085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_21
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 840
+        width: 159
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604c93775c94cd760800000000000000
+      internalID: 7483937793240581126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_22
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1031
+        width: 73
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46151f88fd115da50800000000000000
+      internalID: 6545157285225779556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_23
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 803
+        width: 159
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc95e7c3725833e30800000000000000
+      internalID: 4482072457728907727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_24
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1031
+        width: 59
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6704a5d8e4b5267e0800000000000000
+      internalID: -1773754910293475210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_25
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 1028
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e859d43ead7aa4a00800000000000000
+      internalID: 741589647214089614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_26
+      rect:
+        serializedVersion: 2
+        x: 4462
+        y: 911
+        width: 51
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47c8ab9c13e0c610800000000000000
+      internalID: 1639559976372979530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_27
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 956
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885c598451ee80c80800000000000000
+      internalID: -8356167333406456440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_28
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 933
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ca1d0fbeaa01560800000000000000
+      internalID: 7282508527792401545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_29
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 920
+        width: 47
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79462d60abbae2a00800000000000000
+      internalID: 733712604774687895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_30
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 830
+        width: 109
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81564a30938d29f0800000000000000
+      internalID: -491592128837299826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_31
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 916
+        width: 53
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90245a7b1c2346980800000000000000
+      internalID: -8546650385251220983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_32
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 911
+        width: 44
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3880675b2e77f6580800000000000000
+      internalID: -8831708528659527549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_33
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 918
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e639e45ca1885e0800000000000000
+      internalID: -1907245007462240640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_34
+      rect:
+        serializedVersion: 2
+        x: 4559
+        y: 842
+        width: 111
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442476a3ea4f06120800000000000000
+      internalID: 2405191230157177412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_35
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 548
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3916d91e1c47c0330800000000000000
+      internalID: 3678443371717550483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_36
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 579
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd86f0c693894a8f0800000000000000
+      internalID: -530131483729368869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_37
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 599
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774ac71d0b77c7fa0800000000000000
+      internalID: -5801630618647485321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_38
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 535
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18787f1afb486d10800000000000000
+      internalID: 2119027162319714335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_39
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 368
+        width: 125
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae488eff060f267a0800000000000000
+      internalID: -6385277022256986902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_40
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 401
+        width: 104
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf120df61ba11940800000000000000
+      internalID: 5265177554595225541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_41
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 443
+        width: 53
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8176613d40d7a50800000000000000
+      internalID: 6520373140162812116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_42
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 475
+        width: 31
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e145d405c59862490800000000000000
+      internalID: -7771373077403970530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_43
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 230
+        width: 118
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ff6826a540d3ca0800000000000000
+      internalID: -6035663139360014436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_44
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 431
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360f4cb25cb1cde80800000000000000
+      internalID: -8152610691790606237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_45
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 238
+        width: 76
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1a2f5f9474d9440800000000000000
+      internalID: 4944186348907176423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_46
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 447
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c4511c9a526f800800000000000000
+      internalID: 645745007593344071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_47
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 455
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2467772d0603e50800000000000000
+      internalID: 6787031095510975139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_48
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 389
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dae3c75c6d5ebbf0800000000000000
+      internalID: -306705004704306473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_49
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 401
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0107cc5a5c257830800000000000000
+      internalID: 4068206605014335754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_50
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 254
+        width: 50
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875fd66d8d6efa190800000000000000
+      internalID: -7948880998300781192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_51
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 409
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0270d4985b0bbb0800000000000000
+      internalID: -4922234791408492324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_52
+      rect:
+        serializedVersion: 2
+        x: 4493
+        y: 414
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cb5c2c983364450800000000000000
+      internalID: 6072597814326967308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_53
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 365
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81d5f1e820926c40800000000000000
+      internalID: 5504120199864242571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_54
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 378
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bce36c4f71b7c40800000000000000
+      internalID: 5511024909083396930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_55
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 354
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13085b12c2b53dac0800000000000000
+      internalID: -3831618612859928527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_56
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 373
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7186392a0454be0800000000000000
+      internalID: -1493716634401499173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_57
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 376
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f347c8a27806560800000000000000
+      internalID: 7304987212409749368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_58
+      rect:
+        serializedVersion: 2
+        x: 3148
+        y: 362
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb9e41527e3aa240800000000000000
+      internalID: 4803720613255355338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_59
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 284
+        width: 34
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cf0d54dbe536a60800000000000000
+      internalID: 7666075157727870046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_60
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 161
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3924f0740fc368c60800000000000000
+      internalID: 7820004805657445011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_61
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 202
+        width: 26
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3441f5221be9621b0800000000000000
+      internalID: -5681679396258245565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_62
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 209
+        width: 19
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c73539d26b6d80800000000000000
+      internalID: -8256396806813398816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_63
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 228
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239597b5e7d802190800000000000000
+      internalID: -7989230165115184846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_64
+      rect:
+        serializedVersion: 2
+        x: 4834
+        y: 221
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c38f21e62dc0ff0800000000000000
+      internalID: -68448524110906285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_65
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 108
+        width: 109
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0413695850d487ca0800000000000000
+      internalID: -6018976215869279936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_66
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 127
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a446dba5a96596ed0800000000000000
+      internalID: -2420308103787617206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_67
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 98
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c57fe95ea4a4a460800000000000000
+      internalID: 7252102368713471430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_68
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 80
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba2cf1537167f150800000000000000
+      internalID: 5906296584244308666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_69
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 79
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f02aa1b37dbf9e40800000000000000
+      internalID: 5665455160854978800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_70
+      rect:
+        serializedVersion: 2
+        x: 4425
+        y: 50
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f98125cb9083eb0800000000000000
+      internalID: -4740027903371599991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExplosionFleaEffect_71
+      rect:
+        serializedVersion: 2
+        x: 4671
+        y: 59
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fb80612845fc6a0800000000000000
+      internalID: -6426825225542254809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExplosionFleaEffect_0: -3241332627219451344
+      ExplosionFleaEffect_1: -3698369649197971821
+      ExplosionFleaEffect_10: 4524598295069964057
+      ExplosionFleaEffect_11: 1137472165986630590
+      ExplosionFleaEffect_12: -6480521668002530672
+      ExplosionFleaEffect_13: 1014427039633289055
+      ExplosionFleaEffect_14: 715572099710337289
+      ExplosionFleaEffect_15: -2335868359384610906
+      ExplosionFleaEffect_16: 7484483587796215052
+      ExplosionFleaEffect_17: 4785058946676871671
+      ExplosionFleaEffect_18: -3890609609419421286
+      ExplosionFleaEffect_19: -5913207573287993718
+      ExplosionFleaEffect_2: -8464696169854109773
+      ExplosionFleaEffect_20: 3623627334336204085
+      ExplosionFleaEffect_21: 7483937793240581126
+      ExplosionFleaEffect_22: 6545157285225779556
+      ExplosionFleaEffect_23: 4482072457728907727
+      ExplosionFleaEffect_24: -1773754910293475210
+      ExplosionFleaEffect_25: 741589647214089614
+      ExplosionFleaEffect_26: 1639559976372979530
+      ExplosionFleaEffect_27: -8356167333406456440
+      ExplosionFleaEffect_28: 7282508527792401545
+      ExplosionFleaEffect_29: 733712604774687895
+      ExplosionFleaEffect_3: -1240467800024499356
+      ExplosionFleaEffect_30: -491592128837299826
+      ExplosionFleaEffect_31: -8546650385251220983
+      ExplosionFleaEffect_32: -8831708528659527549
+      ExplosionFleaEffect_33: -1907245007462240640
+      ExplosionFleaEffect_34: 2405191230157177412
+      ExplosionFleaEffect_35: 3678443371717550483
+      ExplosionFleaEffect_36: -530131483729368869
+      ExplosionFleaEffect_37: -5801630618647485321
+      ExplosionFleaEffect_38: 2119027162319714335
+      ExplosionFleaEffect_39: -6385277022256986902
+      ExplosionFleaEffect_4: -4459712327529733501
+      ExplosionFleaEffect_40: 5265177554595225541
+      ExplosionFleaEffect_41: 6520373140162812116
+      ExplosionFleaEffect_42: -7771373077403970530
+      ExplosionFleaEffect_43: -6035663139360014436
+      ExplosionFleaEffect_44: -8152610691790606237
+      ExplosionFleaEffect_45: 4944186348907176423
+      ExplosionFleaEffect_46: 645745007593344071
+      ExplosionFleaEffect_47: 6787031095510975139
+      ExplosionFleaEffect_48: -306705004704306473
+      ExplosionFleaEffect_49: 4068206605014335754
+      ExplosionFleaEffect_5: 7989923498241945017
+      ExplosionFleaEffect_50: -7948880998300781192
+      ExplosionFleaEffect_51: -4922234791408492324
+      ExplosionFleaEffect_52: 6072597814326967308
+      ExplosionFleaEffect_53: 5504120199864242571
+      ExplosionFleaEffect_54: 5511024909083396930
+      ExplosionFleaEffect_55: -3831618612859928527
+      ExplosionFleaEffect_56: -1493716634401499173
+      ExplosionFleaEffect_57: 7304987212409749368
+      ExplosionFleaEffect_58: 4803720613255355338
+      ExplosionFleaEffect_59: 7666075157727870046
+      ExplosionFleaEffect_6: -2729445288244715784
+      ExplosionFleaEffect_60: 7820004805657445011
+      ExplosionFleaEffect_61: -5681679396258245565
+      ExplosionFleaEffect_62: -8256396806813398816
+      ExplosionFleaEffect_63: -7989230165115184846
+      ExplosionFleaEffect_64: -68448524110906285
+      ExplosionFleaEffect_65: -6018976215869279936
+      ExplosionFleaEffect_66: -2420308103787617206
+      ExplosionFleaEffect_67: 7252102368713471430
+      ExplosionFleaEffect_68: 5906296584244308666
+      ExplosionFleaEffect_69: 5665455160854978800
+      ExplosionFleaEffect_7: 4246854505611660336
+      ExplosionFleaEffect_70: -4740027903371599991
+      ExplosionFleaEffect_71: -6426825225542254809
+      ExplosionFleaEffect_8: 8142938452395956054
+      ExplosionFleaEffect_9: -3623085681218627221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

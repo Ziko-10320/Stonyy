@@ -11080,15 +11080,15 @@ MonoBehaviour:
   airDashBoostDuration: 3
   landRecoveryTime: 0.1
   groundCheck: {fileID: 1901010093937645821}
-  groundCheckRadius: 0.24
+  groundCheckRadius: 0.19
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 192
   wallCheckOffset: {x: 0.32, y: 2.65}
   wallCheckDistance: 0.5
   wallLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 192
   wallSlideMinSpeed: 5
   wallSlideMaxSpeed: 65
   wallSlideRampTime: 2

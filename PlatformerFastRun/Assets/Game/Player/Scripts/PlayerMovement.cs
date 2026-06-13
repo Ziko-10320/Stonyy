@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using FirstGearGames.SmoothCameraShaker;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -72,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float stickThrowSpeed = 20f;
     [SerializeField] float stickThrowHopVelocity = 10f;
     bool hasStick;
+    bool isStickHopping;
     public bool isCheckingStick;
 
     [Header("Leaf")]
@@ -88,6 +90,8 @@ public class PlayerMovement : MonoBehaviour
     bool isUpwardDashing;
     float upwardDashTimer;
     bool pauseAutoRun;
+
+    public ShakeData CameraShakeDeath;
 
     // ── Animator triggers ─────────────────────────────────────────────────
     const string ANIM_JUMP = "Jump";
@@ -271,7 +275,11 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // Gravity scale: hold = low, release/fall = high → snappy SMB feel
-        if (!isDashing && !isWallSliding && !isWallClimbing)
+        if (isStickHopping)
+        {
+            rb.gravityScale = jumpHoldGravityScale; // belt AND suspenders
+        }
+        else if (!isDashing && !isWallSliding && !isWallClimbing)
         {
             if (isHoldingJump && rb.linearVelocity.y > 0f)
                 rb.gravityScale = jumpHoldGravityScale;
@@ -374,17 +382,17 @@ public class PlayerMovement : MonoBehaviour
                 newX = targetSpeed;
             }
 
-            rb.linearVelocity = new Vector2(newX, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(isStickHopping ? rb.linearVelocity.x : newX, rb.linearVelocity.y);
         }
         // Jump cut: button released while rising → snap Y down instantly
-        if (!btnHeld && !jumpCutApplied && rb.linearVelocity.y > jumpCutVelocityY)
+        if (!isStickHopping && !btnHeld && !jumpCutApplied && rb.linearVelocity.y > jumpCutVelocityY)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpCutVelocityY);
             jumpCutApplied = true;
             isHoldingJump = false;
         }
 
-        // Hold timer: stop holding boost once timer runs out
+        // Hold timer: stop holding boost once timer runs out 
         if (isHoldingJump)
         {
             jumpHoldTimer -= Time.fixedDeltaTime;
@@ -425,6 +433,7 @@ public class PlayerMovement : MonoBehaviour
         // Holding jump
         if (btnHeld && jumpHoldTimer > 0f)
             isHoldingJump = true;
+        if (isStickHopping) return;
 
         if (slideBtnHeld)
         {
@@ -486,6 +495,20 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAirDash()
     {
+        if (btnPressedThisFrame && hasLeaf)
+        {
+            isDashing = false;
+            rb.gravityScale = fallGravityScale;
+            StartUpwardDash();
+            return;
+        }
+        if (btnPressedThisFrame && hasStick)
+        {
+            isDashing = false;
+            rb.gravityScale = fallGravityScale;
+            ThrowStick();
+            return;
+        }
         dashTimer -= Time.deltaTime;
 
         if (dashTimer <= 0f || isGrounded)
@@ -743,7 +766,9 @@ public class PlayerMovement : MonoBehaviour
     public void PickupStick(GameObject stickInWorld)
     {
         if (hasStick) return;
+        CameraShakerHandler.Shake(CameraShakeDeath);
         hasStick = true;
+        canAirDash = true;
         stickInWorld.SetActive(false);
         heldStickObject.gameObject.SetActive(true);
     }
@@ -753,19 +778,39 @@ public class PlayerMovement : MonoBehaviour
         hasStick = false;
         heldStickObject.gameObject.SetActive(false);
 
+        isDashing = false;
+        canAirDash = true;
+
+        // Reset ALL jump state cleanly
+        isHoldingJump = false;
+        jumpHoldTimer = 0f;
+        jumpCutApplied = true;      // prevent jump cut from killing the hop
+        isStickHopping = true;      // lock out gravity override and jump cut
+
         GameObject thrown = Instantiate(stickPrefab, stickSpawnPoint.position, Quaternion.identity);
+        thrown.tag = "ThrownStick";
         Rigidbody2D stickRb = thrown.GetComponent<Rigidbody2D>();
         if (stickRb != null)
             stickRb.linearVelocity = new Vector2(stickThrowSpeed * runDirection, 0f);
 
-        // Hop up over the stick
-        jumpCutApplied = false;
-        isHoldingJump = true;
-        jumpHoldTimer = maxHoldTime;
-        canAirDash = true;
+        // Force the hop — guaranteed, no conditions
+        rb.gravityScale = jumpHoldGravityScale;
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, stickThrowHopVelocity);
+
         ChangeState(State.Jump);
+        StartCoroutine(ClearStickHop());
     }
+    IEnumerator ClearStickHop()
+    {
+        yield return new WaitForFixedUpdate(); // let velocity commit
+        while (rb.linearVelocity.y > 0.1f)
+        {
+            rb.gravityScale = jumpHoldGravityScale; // enforce every physics step
+            yield return new WaitForFixedUpdate();
+        }
+        isStickHopping = false;
+    }
+   
     public void StartRespawn(GameObject obj, float delay)
     {
         StartCoroutine(RespawnAfterDelay(obj, delay));
@@ -784,7 +829,9 @@ public class PlayerMovement : MonoBehaviour
     public void PickupLeaf(GameObject leafInWorld)
     {
         if (hasLeaf) return;
+        CameraShakerHandler.Shake(CameraShakeDeath);
         hasLeaf = true;
+        canAirDash = true;
         leafInWorld.SetActive(false);
         if (heldLeafObject != null)
             heldLeafObject.gameObject.SetActive(true);
@@ -832,6 +879,43 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = upwardDashEndGravity;
         rb.linearVelocity = new Vector2(0f, upwardDashEndVelocity);
         ChangeState(State.Fall);
+    }
+    public void RespawnReset()
+    {
+        ExitWallSlide();
+        anim.SetBool(ANIM_IDLE_WALL, false);
+        // Clear all in-flight state
+        isDashing = false;
+        isStickHopping = false;
+        isWallSliding = false;
+        isWallClimbing = false;
+        isUpwardDashing = false;
+        pauseAutoRun = false;
+        isBlendingToRun = false;
+        isHoldingJump = false;
+        jumpHoldTimer = 0f;
+        jumpCutApplied = false;
+        jumpBufferTimer = 0f;
+        slideBoostTimer = 0f;
+        isSlideBoostActive = false;
+        airDashBoostTimer = 0f;
+        isAirDashBoostActive = false;
+        canAirDash = true;
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = fallGravityScale;
+
+        hasStick = false;
+        hasLeaf = false;
+        if (heldStickObject != null) heldStickObject.gameObject.SetActive(false);
+        if (heldLeafObject != null) heldLeafObject.gameObject.SetActive(false);
+        ChangeState(State.Fall); // let grounded check settle naturally
+    }
+    public void ResetDirection()
+    {
+        runDirection = 1f;
+        Vector3 s = transform.localScale;
+        s.x = Mathf.Abs(s.x); // force positive = facing right
+        transform.localScale = s;
     }
     // ── Gizmos ────────────────────────────────────────────────────────────
 

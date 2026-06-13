@@ -5,7 +5,7 @@ public class LeafPickup : MonoBehaviour
 {
     [SerializeField] float respawnTime = 4f;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         if (player == null) return;
