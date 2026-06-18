@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2031776296146752788}
   - component: {fileID: 97593979748772532}
   - component: {fileID: 1267399321540659620}
+  - component: {fileID: 1179845948378230397}
   m_Layer: 6
   m_Name: StickProjectile
   m_TagString: ThrownStick
@@ -158,6 +159,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &1179845948378230397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4224212151722326341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311e6c0a36a5c7646a996ce93fd24d6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StickProjectile
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  boxLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &6102753974154524657
 GameObject:
   m_ObjectHideFlags: 0

@@ -76,10 +76,12 @@ public class PlayerHealth : MonoBehaviour
         // Disable movement immediately
         movement.enabled = false;
         movement.RespawnReset(); // zero velocity / reset state before disabling
-
+        anim.SetBool("Slide", false);
+        anim.SetBool("WallSlide", false);
+        anim.SetBool("IdleWall", false);
         // Play death anim and wait
         anim.SetTrigger(ANIM_DEATH);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         // Teleport to checkpoint
         Vector3 spawnPos = checkpointManager != null
@@ -90,9 +92,12 @@ public class PlayerHealth : MonoBehaviour
         // Reset health and facing direction
         currentHealth = maxHealth;
 
+        foreach (var zone in FindObjectsByType<WheelSawZone>(FindObjectsSortMode.None))
+            zone.ResetZone();
+
         // Play respawn anim and wait
         anim.SetTrigger(ANIM_RESPAWN);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
         // Re-enable movement — always facing right
         movement.enabled = true;

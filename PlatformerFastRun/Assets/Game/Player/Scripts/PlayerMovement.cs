@@ -75,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
     bool hasStick;
     bool isStickHopping;
     public bool isCheckingStick;
+    float stickHopProtectionTimer;
 
     [Header("Leaf")]
     [SerializeField] public Transform heldLeafObject;
@@ -92,6 +93,14 @@ public class PlayerMovement : MonoBehaviour
     bool pauseAutoRun;
 
     public ShakeData CameraShakeDeath;
+
+    [Header("Hit Stop")]
+    [SerializeField] float stickHitStopDuration = 0.08f;
+    [SerializeField] float stickHitStopTimeScale = 0.05f;
+    [SerializeField] float leafHitStopDuration = 0.06f;
+    [SerializeField] float leafHitStopTimeScale = 0.05f;
+
+    Coroutine hitStopCoroutine;
 
     // ── Animator triggers ─────────────────────────────────────────────────
     const string ANIM_JUMP = "Jump";
@@ -258,6 +267,9 @@ public class PlayerMovement : MonoBehaviour
             if (airDashBoostTimer <= 0f) isAirDashBoostActive = false;
         }
 
+        if (stickHopProtectionTimer > 0f)
+            stickHopProtectionTimer -= Time.deltaTime;
+
         if (slideWasActive != isSlideBoostActive || dashWasActive != isAirDashBoostActive)
             UpdateTrails();
         CheckWall();
@@ -374,7 +386,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 upwardDashBlendTimer += Time.fixedDeltaTime;
                 float t = Mathf.Clamp01(upwardDashBlendTimer / upwardDashRunBlendTime);
-                newX = Mathf.Lerp(rb.linearVelocity.x, targetSpeed, t);
+               
+                newX = Mathf.Lerp(runDirection * (runSpeed * 0.5f), targetSpeed, t);
                 if (t >= 1f) isBlendingToRun = false;
             }
             else
@@ -432,9 +445,24 @@ public class PlayerMovement : MonoBehaviour
     {
         // Holding jump
         if (btnHeld && jumpHoldTimer > 0f)
-            isHoldingJump = true;
+            isHoldingJump = true; 
+        // Air dash
+        if (btnPressedThisFrame && canAirDash)
+        {
+            isStickHopping = false;         // cancel hop — player chose to dash
+            stickHopProtectionTimer = 0f;
+            StartAirDash();
+            return;
+        }
+        if (isTouchingWall && !isGrounded)
+        {
+            isStickHopping = false;
+            stickHopProtectionTimer = 0f;
+            EnterWallSlide();
+            return;
+        }
         if (isStickHopping) return;
-
+      
         if (slideBtnHeld)
         {
             StartAirSlide();
@@ -445,19 +473,11 @@ public class PlayerMovement : MonoBehaviour
             StartUpwardDash();
             return;
         }
-        // Air dash
-        if (btnPressedThisFrame && canAirDash)
-        {
-            StartAirDash();
-            return;
-        }
-        if (isTouchingWall && !isGrounded)
-        {
-            EnterWallSlide();
-            return;
-        }
+       
+       
+       
         // Transition to fall once Y velocity goes negative
-        if (rb.linearVelocity.y < 0f)
+        if (stickHopProtectionTimer <= 0f && rb.linearVelocity.y < 0f)
         {
             isHoldingJump = false;
             jumpHoldTimer = 0f;
@@ -717,6 +737,12 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAirSlide()
     {
+        if (btnPressedThisFrame && canAirDash)
+        {
+            anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
+            StartAirDash();
+            return;
+        }
         if (isGrounded)
         {
             if (slideBtnHeld)
@@ -766,7 +792,7 @@ public class PlayerMovement : MonoBehaviour
     public void PickupStick(GameObject stickInWorld)
     {
         if (hasStick) return;
-        CameraShakerHandler.Shake(CameraShakeDeath);
+        TriggerHitStop(stickHitStopDuration, stickHitStopTimeScale);
         hasStick = true;
         canAirDash = true;
         stickInWorld.SetActive(false);
@@ -780,12 +806,11 @@ public class PlayerMovement : MonoBehaviour
 
         isDashing = false;
         canAirDash = true;
-
-        // Reset ALL jump state cleanly
         isHoldingJump = false;
         jumpHoldTimer = 0f;
-        jumpCutApplied = true;      // prevent jump cut from killing the hop
-        isStickHopping = true;      // lock out gravity override and jump cut
+        jumpCutApplied = true;
+        isStickHopping = true;
+        stickHopProtectionTimer = 0.35f; // full hop window — no fall allowed during this
 
         GameObject thrown = Instantiate(stickPrefab, stickSpawnPoint.position, Quaternion.identity);
         thrown.tag = "ThrownStick";
@@ -793,24 +818,31 @@ public class PlayerMovement : MonoBehaviour
         if (stickRb != null)
             stickRb.linearVelocity = new Vector2(stickThrowSpeed * runDirection, 0f);
 
-        // Force the hop — guaranteed, no conditions
         rb.gravityScale = jumpHoldGravityScale;
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, stickThrowHopVelocity);
 
         ChangeState(State.Jump);
-        StartCoroutine(ClearStickHop());
+        StartCoroutine(StickHopRoutine());
     }
-    IEnumerator ClearStickHop()
+
+    IEnumerator StickHopRoutine()
     {
-        yield return new WaitForFixedUpdate(); // let velocity commit
+        // Stamp velocity for 3 consecutive fixed updates — survives any gravity spike
+        for (int i = 0; i < 3; i++)
+        {
+            yield return new WaitForFixedUpdate();
+            rb.gravityScale = jumpHoldGravityScale;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, stickThrowHopVelocity);
+        }
+
+        // Now just hold low gravity until apex
         while (rb.linearVelocity.y > 0.1f)
         {
-            rb.gravityScale = jumpHoldGravityScale; // enforce every physics step
+            rb.gravityScale = jumpHoldGravityScale;
             yield return new WaitForFixedUpdate();
         }
         isStickHopping = false;
     }
-   
     public void StartRespawn(GameObject obj, float delay)
     {
         StartCoroutine(RespawnAfterDelay(obj, delay));
@@ -829,7 +861,7 @@ public class PlayerMovement : MonoBehaviour
     public void PickupLeaf(GameObject leafInWorld)
     {
         if (hasLeaf) return;
-        CameraShakerHandler.Shake(CameraShakeDeath);
+        TriggerHitStop(leafHitStopDuration, leafHitStopTimeScale);
         hasLeaf = true;
         canAirDash = true;
         leafInWorld.SetActive(false);
@@ -876,14 +908,31 @@ public class PlayerMovement : MonoBehaviour
         upwardDashBlendTimer = 0f;
         isHoldingJump = false;
         jumpHoldTimer = 0f;
+        anim.ResetTrigger(ANIM_UPWARD_DASH);
         rb.gravityScale = upwardDashEndGravity;
-        rb.linearVelocity = new Vector2(0f, upwardDashEndVelocity);
+
+        // ── CHANGE: seed X in the correct run direction so blend never crosses zero
+        rb.linearVelocity = new Vector2(runDirection * (runSpeed * 0.5f), upwardDashEndVelocity);
         ChangeState(State.Fall);
     }
     public void RespawnReset()
     {
         ExitWallSlide();
-        anim.SetBool(ANIM_IDLE_WALL, false);
+        anim.SetBool(ANIM_SLIDE, false);
+        anim.ResetTrigger(ANIM_JUMP);
+        anim.ResetTrigger(ANIM_FALL);
+        anim.ResetTrigger(ANIM_AIR_DASH);
+        anim.ResetTrigger(ANIM_LAND);
+        anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
+        anim.ResetTrigger(ANIM_UPWARD_DASH);
+
+        slideBtnHeld = false;
+        btnHeld = false;
+        btnPressedThisFrame = false;
+
+        foreach (var platform in FindObjectsByType<DisappearingPlatform>(FindObjectsSortMode.None))
+            platform.ResetPlatform();
+
         // Clear all in-flight state
         isDashing = false;
         isStickHopping = false;
@@ -903,7 +952,7 @@ public class PlayerMovement : MonoBehaviour
         canAirDash = true;
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = fallGravityScale;
-
+        stickHopProtectionTimer = 0f;
         hasStick = false;
         hasLeaf = false;
         if (heldStickObject != null) heldStickObject.gameObject.SetActive(false);
@@ -916,6 +965,20 @@ public class PlayerMovement : MonoBehaviour
         Vector3 s = transform.localScale;
         s.x = Mathf.Abs(s.x); // force positive = facing right
         transform.localScale = s;
+    }
+
+    IEnumerator DoHitStop(float duration, float timeScale)
+    {
+        Time.timeScale = timeScale;
+        yield return new WaitForSecondsRealtime(duration);
+        Time.timeScale = 1f;
+        hitStopCoroutine = null;
+    }
+
+    void TriggerHitStop(float duration, float timeScale)
+    {
+        if (hitStopCoroutine != null) StopCoroutine(hitStopCoroutine);
+        hitStopCoroutine = StartCoroutine(DoHitStop(duration, timeScale));
     }
     // ── Gizmos ────────────────────────────────────────────────────────────
 
