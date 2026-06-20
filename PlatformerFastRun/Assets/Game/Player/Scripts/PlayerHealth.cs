@@ -95,6 +95,8 @@ public class PlayerHealth : MonoBehaviour
         foreach (var zone in FindObjectsByType<WheelSawZone>(FindObjectsSortMode.None))
             zone.ResetZone();
 
+        foreach (var box in FindObjectsByType<BreakableBox>(FindObjectsSortMode.None))
+            box.ResetBox();
         // Play respawn anim and wait
         anim.SetTrigger(ANIM_RESPAWN);
         yield return new WaitForSeconds(0.5f);

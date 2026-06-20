@@ -461,13 +461,15 @@ public class PlayerMovement : MonoBehaviour
             EnterWallSlide();
             return;
         }
-        if (isStickHopping) return;
-      
         if (slideBtnHeld)
         {
+            isStickHopping = false;
+            stickHopProtectionTimer = 0f;
             StartAirSlide();
             return;
         }
+        if (isStickHopping) return;
+       
         if (btnPressedThisFrame && hasLeaf)
         {
             StartUpwardDash();
@@ -515,6 +517,17 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAirDash()
     {
+        dashTimer -= Time.deltaTime; // ← MOVE THIS UP
+
+        float elapsed = airDashDuration - dashTimer;
+
+        if (elapsed > 0.05f && slideBtnHeld) // ← only allow after a tiny grace window
+        {
+            isDashing = false;
+            rb.gravityScale = fallGravityScale;
+            StartAirSlide();
+            return;
+        }
         if (btnPressedThisFrame && hasLeaf)
         {
             isDashing = false;
@@ -529,7 +542,7 @@ public class PlayerMovement : MonoBehaviour
             ThrowStick();
             return;
         }
-        dashTimer -= Time.deltaTime;
+        
 
         if (dashTimer <= 0f || isGrounded)
         {
@@ -737,9 +750,10 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAirSlide()
     {
-        if (btnPressedThisFrame && canAirDash)
+        if (btnPressedThisFrame)
         {
             anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
+            canAirDash = true; // refresh so StartAirDash doesn't reject it
             StartAirDash();
             return;
         }
