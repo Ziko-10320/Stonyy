@@ -1368,7 +1368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5465803092419209686, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: respawnTime
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6798653192660105844, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: m_Radius
@@ -1947,7 +1947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5465803092419209686, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: respawnTime
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6798653192660105844, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: m_Radius
@@ -4786,7 +4786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5465803092419209686, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: respawnTime
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6798653192660105844, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: m_Radius
@@ -21701,7 +21701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5465803092419209686, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: respawnTime
-      value: 2.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6798653192660105844, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
       propertyPath: m_Radius

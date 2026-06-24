@@ -548,7 +548,8 @@ public class PlayerMovement : MonoBehaviour
         {
             isDashing = false;
             rb.gravityScale = fallGravityScale;
-
+            isCheckingStick = false;    
+            isCheckingLeaf = false;
             if (isGrounded)
                 Land();
             else
@@ -608,6 +609,7 @@ public class PlayerMovement : MonoBehaviour
         ExitWallSlide();
         canAirDash = true;
         landTimer = landRecoveryTime;
+
         ChangeState(State.Land);
     }
 
@@ -939,7 +941,8 @@ public class PlayerMovement : MonoBehaviour
         anim.ResetTrigger(ANIM_LAND);
         anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
         anim.ResetTrigger(ANIM_UPWARD_DASH);
-
+        isCheckingStick = false;
+        isCheckingLeaf = false;
         slideBtnHeld = false;
         btnHeld = false;
         btnPressedThisFrame = false;

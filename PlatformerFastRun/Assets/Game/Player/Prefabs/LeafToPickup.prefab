@@ -130,7 +130,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.01785485, y: 0.0004360573}
-  m_Radius: 0.57
+  m_Radius: 0.67
 --- !u!114 &5465803092419209686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e51dc14dcca23f49a0b319ec1a449f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeafPickup
-  respawnTime: 4
+  respawnTime: 1.5
 --- !u!95 &742753740298273751
 Animator:
   serializedVersion: 7
@@ -157,7 +157,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 4ef5a7140c8bac54399ddcfed93d4fe6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
