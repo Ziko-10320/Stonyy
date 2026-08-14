@@ -755,7 +755,7 @@ public class PlayerMovement : MonoBehaviour
         if (btnPressedThisFrame)
         {
             anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
-            canAirDash = true; // refresh so StartAirDash doesn't reject it
+            
             StartAirDash();
             return;
         }

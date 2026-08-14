@@ -18,13 +18,27 @@ public class StickProjectile : MonoBehaviour
         if (((1 << other.gameObject.layer) & groundLayer) != 0)
             StickInPlace();
     }
-
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Boxes are detected via trigger only — no physics response, stick keeps flying
+        // hit a breakable box
         BreakableBox box = other.GetComponent<BreakableBox>();
         if (box != null && !isStuck)
+        {
             box.Break();
+            if (box.DestroyStickOnBreak)
+                Destroy(gameObject);
+            return;
+        }
+
+        // hit a boss life object
+        BossLifeObject life = other.GetComponent<BossLifeObject>();
+        if (life != null && !isStuck)
+        {
+            life.GetComponentInParent<BossHealth>().TakeHit(other.gameObject);
+            other.gameObject.SetActive(false); // destroy the life object
+            Destroy(gameObject);        // destroy the stick
+            return;
+        }
     }
 
     void StickInPlace()

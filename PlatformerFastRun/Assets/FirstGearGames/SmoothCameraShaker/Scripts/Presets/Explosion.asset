@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Explosion
   m_EditorClassIdentifier: 
   _scaledTime: 1
+  _shakeCameras: 1
+  _shakeCanvases: 1
+  _shakeObjects: 1
+  _iterationPercent: 1
   _unlimitedDuration: 0
-  _totalDuration: 1
-  _fadeInDuration: 0
-  _fadeOutDuration: 0
-  _magnitude: 1
-  _magnitudeNoise: 0.1
+  _totalDuration: 0.52
+  _fadeInDuration: 0.13
+  _fadeOutDuration: 0.07
+  _magnitude: 1.85
+  _magnitudeNoise: 0.104
   _magnitudeCurve:
     serializedVersion: 2
     m_Curve:
@@ -52,9 +56,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _magnitudeCurveTiming: 1
-  _roughness: 7.5
-  _roughnessNoise: 0.3
+  _roughness: 3.11
+  _roughnessNoise: 0.161
   _roughnessCurve:
     serializedVersion: 2
     m_Curve:
@@ -79,6 +82,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _roughnessCurveTiming: 1
   _positionalInfluence: {x: 1, y: 1, z: 0}
+  _positionalInverts: 0
   _rotationalInfluence: {x: 0, y: 0, z: 1}
+  _rotationalInverts: 0
+  _randomSeed: 1

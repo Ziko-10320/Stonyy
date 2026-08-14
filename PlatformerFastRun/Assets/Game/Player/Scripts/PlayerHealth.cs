@@ -97,6 +97,20 @@ public class PlayerHealth : MonoBehaviour
 
         foreach (var box in FindObjectsByType<BreakableBox>(FindObjectsSortMode.None))
             box.ResetBox();
+
+        foreach (var hazard in FindObjectsByType<HazardBoss>(FindObjectsSortMode.None))
+        {
+            hazard.ResetHazard();
+            hazard.gameObject.SetActive(false);
+        }
+
+        foreach (var zone in FindObjectsByType<HazardSequenceTrigger>(FindObjectsSortMode.None))
+            zone.ResetZone();
+
+        foreach (var zone in FindObjectsByType<HazardDestroyTrigger>(FindObjectsSortMode.None))
+            zone.ResetZone();
+        foreach (var boss in FindObjectsByType<BossHealth>(FindObjectsSortMode.None))
+            boss.ResetBoss();
         // Play respawn anim and wait
         anim.SetTrigger(ANIM_RESPAWN);
         yield return new WaitForSeconds(0.5f);
