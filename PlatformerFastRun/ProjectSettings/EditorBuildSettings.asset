@@ -8,6 +8,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lvl 1.unity
+    guid: 51c859ec4adbf6142ac5e08a751ecad8
+  - enabled: 1
+    path: Assets/Scenes/Lvl 2.unity
+    guid: da23b0ca9b688f645aacf5690bf68e5d
+  - enabled: 1
+    path: Assets/Scenes/Lvl 3.unity
+    guid: 6af34d017d6c577429dd977b01b1e9b5
+  - enabled: 1
+    path: Assets/Scenes/Lvl 4.unity
+    guid: 472f5c3cfe2a91d4c974b5ef49afdf4e
+  - enabled: 1
+    path: Assets/Scenes/Lvl 5.unity
+    guid: 15bc0f9763850ed4397b7571026fbc68
+  - enabled: 1
+    path: Assets/Scenes/Lvl 6.unity
+    guid: 40eb5041ef3fcb94993967e19b73fad2
+  - enabled: 1
+    path: Assets/Scenes/Lvl 21.unity
+    guid: 143fcae844cb74b4bad39634e2bc4a1f
+  - enabled: 1
+    path: Assets/Scenes/Lvl 67.unity
+    guid: df584da1e139b714395bdeb8d97d416d
+  - enabled: 1
+    path: Assets/Scenes/Lvl 69.unity
+    guid: 1bc95ac9452aaab4abc64f7c83dd2160
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 00c17324e5498744883366e60f6191f6, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}

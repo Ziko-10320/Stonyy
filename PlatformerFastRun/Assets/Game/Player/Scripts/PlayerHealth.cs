@@ -124,7 +124,12 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = true;
         invincibilityTimer = invincibilityDuration;
     }
-
+    public void InstantKill()
+    {
+        if (isDead) return;
+        currentHealth = 0;
+        Die();
+    }
     void Respawn()
     {
         Vector3 spawnPos = checkpointManager != null
