@@ -11,6 +11,17 @@ public class DisappearingPlatform : MonoBehaviour
     [SerializeField] bool fadeOut = true;
     [SerializeField] float fadeDuration = 0.4f;
 
+    [Header("Effects")]
+    [SerializeField] GameObject dustPrefab;
+     
+
+    [Header("Fallback Detection")]
+    [SerializeField] LayerMask playerLayer;
+    [SerializeField] float detectionPadding = 0.1f;
+
+    Animator anim;
+    const string ANIM_COLLAPSE = "Collapse"; // must match your Trigger parameter name in the Animator
+
     Collider2D col;
     SpriteRenderer sr;
     Color originalColor;
@@ -20,21 +31,41 @@ public class DisappearingPlatform : MonoBehaviour
     {
         col = GetComponent<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
         if (sr != null) originalColor = sr.color;
     }
+     
 
+    void FixedUpdate()
+    {
+        if (triggered) return;
+
+        Vector2 size = col.bounds.size;
+        Vector2 center = col.bounds.center + Vector3.up * (size.y / 2f + detectionPadding);
+
+        Collider2D hit = Physics2D.OverlapBox(center, new Vector2(size.x, detectionPadding * 2f), 0f, playerLayer);
+        if (hit != null && hit.CompareTag("Player"))
+        {
+            TriggerCollapse();
+        }
+    }
     void OnCollisionEnter2D(Collision2D other)
     {
         if (triggered) return;
         if (!other.gameObject.CompareTag("Player")) return;
         triggered = true;
+
+        if (dustPrefab != null)
+            Instantiate(dustPrefab, transform.position, Quaternion.identity);
+
         StartCoroutine(Sequence());
     }
 
     IEnumerator Sequence()
     {
         yield return new WaitForSeconds(collapseDelay);
-
+        if (anim != null)
+            anim.SetTrigger(ANIM_COLLAPSE);
         // Fade out sprite
         if (fadeOut && sr != null)
         {
@@ -55,7 +86,17 @@ public class DisappearingPlatform : MonoBehaviour
         yield return new WaitForSeconds(disappearDelay);
         if (sr != null) sr.enabled = false;
     }
-
+    public void TriggerCollapse()
+    {
+        if (triggered) return;
+        triggered = true;
+        if (dustPrefab != null)
+        {
+            var fx = Instantiate(dustPrefab, transform.position, Quaternion.identity);
+            Destroy(fx, 2f);
+        }
+        StartCoroutine(Sequence());
+    }
     public void ResetPlatform()
     {
         StopAllCoroutines();
@@ -66,5 +107,7 @@ public class DisappearingPlatform : MonoBehaviour
             sr.enabled = true;
             sr.color = originalColor;
         }
+        if (anim != null)
+            anim.Play("NothingDisappearing", 0, 0f);
     }
 }

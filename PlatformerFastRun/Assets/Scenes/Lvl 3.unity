@@ -215,6 +215,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &3834330
 SpriteRenderer:
   serializedVersion: 2
@@ -1098,6 +1104,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &13966222
 SpriteRenderer:
   serializedVersion: 2
@@ -5374,6 +5386,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &85487903
 SpriteRenderer:
   serializedVersion: 2
@@ -5893,6 +5911,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &89197952
 SpriteRenderer:
   serializedVersion: 2
@@ -6230,6 +6254,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &94047517
 SpriteRenderer:
   serializedVersion: 2
@@ -6385,6 +6415,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &100760850
 SpriteRenderer:
   serializedVersion: 2
@@ -6540,6 +6576,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &107278284
 SpriteRenderer:
   serializedVersion: 2
@@ -6877,6 +6919,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &116524807
 SpriteRenderer:
   serializedVersion: 2
@@ -8699,6 +8747,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &144857570
 SpriteRenderer:
   serializedVersion: 2
@@ -10444,6 +10498,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &172355698
 SpriteRenderer:
   serializedVersion: 2
@@ -14045,6 +14105,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &228895619
 SpriteRenderer:
   serializedVersion: 2
@@ -17452,6 +17518,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &277270730
 SpriteRenderer:
   serializedVersion: 2
@@ -18304,6 +18376,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &293571162
 SpriteRenderer:
   serializedVersion: 2
@@ -22883,6 +22961,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &399889587
 SpriteRenderer:
   serializedVersion: 2
@@ -23402,6 +23486,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &409053703
 SpriteRenderer:
   serializedVersion: 2
@@ -24830,6 +24920,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &425943208
 SpriteRenderer:
   serializedVersion: 2
@@ -28336,6 +28432,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &474034206
 SpriteRenderer:
   serializedVersion: 2
@@ -29175,6 +29277,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &501576185
 SpriteRenderer:
   serializedVersion: 2
@@ -30228,6 +30336,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &515554672
 SpriteRenderer:
   serializedVersion: 2
@@ -30640,6 +30754,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &518334255
 SpriteRenderer:
   serializedVersion: 2
@@ -31507,6 +31627,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &526242140
 SpriteRenderer:
   serializedVersion: 2
@@ -32192,6 +32318,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &530394034
 SpriteRenderer:
   serializedVersion: 2
@@ -34277,6 +34409,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &553596480
 SpriteRenderer:
   serializedVersion: 2
@@ -34993,6 +35131,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &560904900
 SpriteRenderer:
   serializedVersion: 2
@@ -35572,6 +35716,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &567381255
 SpriteRenderer:
   serializedVersion: 2
@@ -36956,6 +37106,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &577150714
 SpriteRenderer:
   serializedVersion: 2
@@ -37278,6 +37434,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &581960174
 SpriteRenderer:
   serializedVersion: 2
@@ -38235,6 +38397,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &596098394
 SpriteRenderer:
   serializedVersion: 2
@@ -42935,6 +43103,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &662096876
 SpriteRenderer:
   serializedVersion: 2
@@ -45972,6 +46146,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &710112431
 SpriteRenderer:
   serializedVersion: 2
@@ -48778,6 +48958,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &756558078
 SpriteRenderer:
   serializedVersion: 2
@@ -49905,6 +50091,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &775208936
 SpriteRenderer:
   serializedVersion: 2
@@ -53046,6 +53238,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &813994737
 SpriteRenderer:
   serializedVersion: 2
@@ -54444,6 +54642,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &830617693
 SpriteRenderer:
   serializedVersion: 2
@@ -55765,6 +55969,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &839851065
 SpriteRenderer:
   serializedVersion: 2
@@ -56011,6 +56221,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &840846269
 SpriteRenderer:
   serializedVersion: 2
@@ -56681,6 +56897,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &846829058
 SpriteRenderer:
   serializedVersion: 2
@@ -57638,6 +57860,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &859181592
 SpriteRenderer:
   serializedVersion: 2
@@ -57884,6 +58112,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &866364539
 SpriteRenderer:
   serializedVersion: 2
@@ -58206,6 +58440,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &870477517
 SpriteRenderer:
   serializedVersion: 2
@@ -58543,6 +58783,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &879570699
 SpriteRenderer:
   serializedVersion: 2
@@ -58713,6 +58959,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &881970052
 SpriteRenderer:
   serializedVersion: 2
@@ -59217,6 +59469,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &892017006
 SpriteRenderer:
   serializedVersion: 2
@@ -60160,6 +60418,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &914585326
 SpriteRenderer:
   serializedVersion: 2
@@ -61921,6 +62185,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &943949306
 SpriteRenderer:
   serializedVersion: 2
@@ -67054,6 +67324,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1034729602
 SpriteRenderer:
   serializedVersion: 2
@@ -67635,6 +67911,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1044082639
 SpriteRenderer:
   serializedVersion: 2
@@ -68154,6 +68436,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1049918870
 SpriteRenderer:
   serializedVersion: 2
@@ -69096,6 +69384,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1067310444
 SpriteRenderer:
   serializedVersion: 2
@@ -69608,6 +69902,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1078175484
 SpriteRenderer:
   serializedVersion: 2
@@ -70673,6 +70973,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1101838970
 SpriteRenderer:
   serializedVersion: 2
@@ -72964,6 +73270,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1128558908
 SpriteRenderer:
   serializedVersion: 2
@@ -74170,6 +74482,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1153619329
 SpriteRenderer:
   serializedVersion: 2
@@ -74962,6 +75280,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1164139996
 SpriteRenderer:
   serializedVersion: 2
@@ -76560,6 +76884,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1182969336
 SpriteRenderer:
   serializedVersion: 2
@@ -79392,6 +79722,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1228394679
 SpriteRenderer:
   serializedVersion: 2
@@ -79547,6 +79883,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1228546848
 SpriteRenderer:
   serializedVersion: 2
@@ -80869,6 +81211,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1251922440
 SpriteRenderer:
   serializedVersion: 2
@@ -81297,6 +81645,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1261389145
 SpriteRenderer:
   serializedVersion: 2
@@ -81452,6 +81806,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1261449813
 SpriteRenderer:
   serializedVersion: 2
@@ -81956,6 +82316,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1270344266
 SpriteRenderer:
   serializedVersion: 2
@@ -85540,6 +85906,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1330845130
 SpriteRenderer:
   serializedVersion: 2
@@ -87627,6 +87999,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1352266485
 SpriteRenderer:
   serializedVersion: 2
@@ -88313,6 +88691,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1362466869
 SpriteRenderer:
   serializedVersion: 2
@@ -89029,6 +89413,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1373167426
 SpriteRenderer:
   serializedVersion: 2
@@ -89350,6 +89740,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1377554824
 SpriteRenderer:
   serializedVersion: 2
@@ -92507,6 +92903,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1407710723
 SpriteRenderer:
   serializedVersion: 2
@@ -93919,6 +94321,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1431051438
 SpriteRenderer:
   serializedVersion: 2
@@ -94613,6 +95021,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1435034174
 SpriteRenderer:
   serializedVersion: 2
@@ -96845,6 +97259,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1467702680
 SpriteRenderer:
   serializedVersion: 2
@@ -97546,6 +97966,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1476888542
 SpriteRenderer:
   serializedVersion: 2
@@ -98702,6 +99128,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1490451566
 SpriteRenderer:
   serializedVersion: 2
@@ -98842,6 +99274,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1491159115
 SpriteRenderer:
   serializedVersion: 2
@@ -101653,6 +102091,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1553919095
 SpriteRenderer:
   serializedVersion: 2
@@ -105067,6 +105511,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1618644911
 SpriteRenderer:
   serializedVersion: 2
@@ -105890,6 +106340,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1631278049
 SpriteRenderer:
   serializedVersion: 2
@@ -107197,6 +107653,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1652489880
 SpriteRenderer:
   serializedVersion: 2
@@ -109625,6 +110087,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1684310922
 SpriteRenderer:
   serializedVersion: 2
@@ -112833,6 +113301,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1744608501
 SpriteRenderer:
   serializedVersion: 2
@@ -114913,6 +115387,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1785181679
 SpriteRenderer:
   serializedVersion: 2
@@ -115780,6 +116260,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1800887174
 SpriteRenderer:
   serializedVersion: 2
@@ -119055,6 +119541,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1846998769
 SpriteRenderer:
   serializedVersion: 2
@@ -121155,6 +121647,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1873640389
 SpriteRenderer:
   serializedVersion: 2
@@ -121401,6 +121899,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1875389117
 SpriteRenderer:
   serializedVersion: 2
@@ -121980,6 +122484,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1886556449
 SpriteRenderer:
   serializedVersion: 2
@@ -122943,6 +123453,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1904291065
 SpriteRenderer:
   serializedVersion: 2
@@ -124355,6 +124871,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1921573089
 SpriteRenderer:
   serializedVersion: 2
@@ -125693,6 +126215,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1943098031
 SpriteRenderer:
   serializedVersion: 2
@@ -127400,6 +127928,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1971564669
 SpriteRenderer:
   serializedVersion: 2
@@ -127631,6 +128165,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1973924009
 SpriteRenderer:
   serializedVersion: 2
@@ -127983,6 +128523,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1980580335
 SpriteRenderer:
   serializedVersion: 2
@@ -128123,6 +128669,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1982597066
 SpriteRenderer:
   serializedVersion: 2
@@ -129465,6 +130017,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2003273777
 SpriteRenderer:
   serializedVersion: 2
@@ -131349,6 +131907,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2039846601
 SpriteRenderer:
   serializedVersion: 2
@@ -132035,6 +132599,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2047294085
 SpriteRenderer:
   serializedVersion: 2
@@ -133614,6 +134184,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2079225791
 SpriteRenderer:
   serializedVersion: 2
@@ -135489,6 +136065,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2111717626
 SpriteRenderer:
   serializedVersion: 2
@@ -136008,6 +136590,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2116654163
 SpriteRenderer:
   serializedVersion: 2
@@ -136330,6 +136918,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2121526634
 SpriteRenderer:
   serializedVersion: 2
@@ -137046,6 +137640,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2132564069
 SpriteRenderer:
   serializedVersion: 2
@@ -137641,6 +138241,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2138600550
 SpriteRenderer:
   serializedVersion: 2

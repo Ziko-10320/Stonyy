@@ -1,4 +1,5 @@
 ﻿using FirstGearGames.SmoothCameraShaker;
+using FirstGearGames.Utilities.Maths;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -637,17 +638,23 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 origin = (Vector2)transform.position;
 
-        bool hitRight = Physics2D.Raycast(
+        RaycastHit2D hitRight = Physics2D.Raycast(
             origin + new Vector2(wallCheckOffset.x, wallCheckOffset.y),
             Vector2.right, wallCheckDistance, wallLayer);
 
-        bool hitLeft = Physics2D.Raycast(
+        RaycastHit2D hitLeft = Physics2D.Raycast(
             origin + new Vector2(-wallCheckOffset.x, wallCheckOffset.y),
             Vector2.left, wallCheckDistance, wallLayer);
 
-        isTouchingWall = runDirection > 0f ? hitRight : hitLeft;
-    }
+        RaycastHit2D activeHit = runDirection > 0f ? hitRight : hitLeft;
+        isTouchingWall = activeHit.collider != null;
 
+        if (isTouchingWall)
+        {
+            var plat = activeHit.collider.GetComponent<DisappearingPlatform>();
+            if (plat != null) plat.TriggerCollapse();
+        }
+    }
     void EnterWallSlide()
     {
         wallSlideTimer = 0f;

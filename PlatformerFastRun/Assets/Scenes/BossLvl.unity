@@ -350,11 +350,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &3297984
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -417,6 +417,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &3297986
 SpriteRenderer:
   serializedVersion: 2
@@ -590,6 +596,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &4487351
 SpriteRenderer:
   serializedVersion: 2
@@ -696,11 +708,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &4664504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -763,6 +775,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &4664506
 SpriteRenderer:
   serializedVersion: 2
@@ -1360,6 +1378,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &38944686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1512,11 +1536,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &41978071
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1579,6 +1603,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &41978073
 SpriteRenderer:
   serializedVersion: 2
@@ -1890,6 +1920,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &57206968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2535,11 +2571,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &69963496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2602,6 +2638,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &69963498
 SpriteRenderer:
   serializedVersion: 2
@@ -3053,11 +3095,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &76919277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3120,6 +3162,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &76919279
 SpriteRenderer:
   serializedVersion: 2
@@ -3812,6 +3860,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &101972923
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3968,7 +4022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &105897573
 Transform:
   m_ObjectHideFlags: 0
@@ -4340,11 +4394,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &115329967
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4407,6 +4461,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &115329969
 SpriteRenderer:
   serializedVersion: 2
@@ -4534,6 +4594,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &120114308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4735,11 +4801,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &131525186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4802,6 +4868,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &131525188
 SpriteRenderer:
   serializedVersion: 2
@@ -5018,6 +5090,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &136018886
 SpriteRenderer:
   serializedVersion: 2
@@ -5329,6 +5407,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &145525310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5502,6 +5586,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &152817732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5675,6 +5765,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &160410326
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5848,6 +5944,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &161691770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6067,6 +6169,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &162679666
 SpriteRenderer:
   serializedVersion: 2
@@ -6173,11 +6281,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &166958801
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6240,6 +6348,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &166958803
 SpriteRenderer:
   serializedVersion: 2
@@ -7393,6 +7507,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &204559447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7566,6 +7686,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &215954586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9009,6 +9135,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &238666932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9532,6 +9664,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &245553345
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9684,11 +9822,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &246871877
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9751,6 +9889,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &246871879
 SpriteRenderer:
   serializedVersion: 2
@@ -10334,11 +10478,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &277135500
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10401,6 +10545,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &277135502
 SpriteRenderer:
   serializedVersion: 2
@@ -11655,6 +11805,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &334132814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12024,11 +12180,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &342545449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12091,6 +12247,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &342545451
 SpriteRenderer:
   serializedVersion: 2
@@ -12511,6 +12673,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &356998202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13097,11 +13265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &374379678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13164,6 +13332,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &374379680
 SpriteRenderer:
   serializedVersion: 2
@@ -13774,6 +13948,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &389970381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13899,7 +14079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &390145042
 Transform:
   m_ObjectHideFlags: 0
@@ -15122,6 +15302,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &418748357
 SpriteRenderer:
   serializedVersion: 2
@@ -15475,11 +15661,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &443071482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15542,6 +15728,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &443071484
 SpriteRenderer:
   serializedVersion: 2
@@ -15796,6 +15988,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &456569247
 SpriteRenderer:
   serializedVersion: 2
@@ -15974,6 +16172,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &470388342
 SpriteRenderer:
   serializedVersion: 2
@@ -16080,11 +16284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &471906755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16147,6 +16351,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &471906757
 SpriteRenderer:
   serializedVersion: 2
@@ -16504,6 +16714,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &482342257
 SpriteRenderer:
   serializedVersion: 2
@@ -17152,7 +17368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &521683060
 Transform:
   m_ObjectHideFlags: 0
@@ -17550,6 +17766,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &542963910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17995,6 +18217,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &591759300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18352,6 +18580,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &595817624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18504,11 +18738,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &596694619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18571,6 +18805,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &596694621
 SpriteRenderer:
   serializedVersion: 2
@@ -19045,11 +19285,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &622151370
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19112,6 +19352,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &622151372
 SpriteRenderer:
   serializedVersion: 2
@@ -19218,11 +19464,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &626011353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19285,6 +19531,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &626011355
 SpriteRenderer:
   serializedVersion: 2
@@ -19412,6 +19664,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &640394966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20467,6 +20725,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &681636528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20640,6 +20904,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &684076252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21505,11 +21775,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &712494624
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21572,6 +21842,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &712494626
 SpriteRenderer:
   serializedVersion: 2
@@ -21678,11 +21954,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &715410657
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21745,6 +22021,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &715410659
 SpriteRenderer:
   serializedVersion: 2
@@ -21885,11 +22167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &718129113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21952,6 +22234,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &718129115
 SpriteRenderer:
   serializedVersion: 2
@@ -22058,11 +22346,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &733075069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22125,6 +22413,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &733075071
 SpriteRenderer:
   serializedVersion: 2
@@ -22436,6 +22730,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &744595975
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22928,6 +23228,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &760067934
 SpriteRenderer:
   serializedVersion: 2
@@ -23086,6 +23392,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &763849754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23259,6 +23571,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &769479403
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23478,6 +23796,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &773142558
 SpriteRenderer:
   serializedVersion: 2
@@ -23884,11 +24208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &788576131
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23951,6 +24275,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &788576133
 SpriteRenderer:
   serializedVersion: 2
@@ -24262,6 +24592,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &804979518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24435,6 +24771,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &808808749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25022,6 +25364,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &841415927
 SpriteRenderer:
   serializedVersion: 2
@@ -25128,11 +25476,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &842472876
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25195,6 +25543,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &842472878
 SpriteRenderer:
   serializedVersion: 2
@@ -25490,11 +25844,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &865721952
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25557,6 +25911,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &865721954
 SpriteRenderer:
   serializedVersion: 2
@@ -25667,7 +26027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &889379498
 Transform:
   m_ObjectHideFlags: 0
@@ -26033,6 +26393,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &897837272
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26652,6 +27018,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &908941140
 SpriteRenderer:
   serializedVersion: 2
@@ -26856,11 +27228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &912514632
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26923,6 +27295,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &912514634
 SpriteRenderer:
   serializedVersion: 2
@@ -28201,6 +28579,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &939202288
 SpriteRenderer:
   serializedVersion: 2
@@ -28512,6 +28896,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &968281751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28719,6 +29109,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &969653385
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28844,7 +29240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &970143557
 Transform:
   m_ObjectHideFlags: 0
@@ -29055,11 +29451,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &972212211
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29122,6 +29518,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &972212213
 SpriteRenderer:
   serializedVersion: 2
@@ -29342,6 +29744,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &989701545
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29596,6 +30004,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1005572936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30430,6 +30844,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1045214800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30895,6 +31315,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1061127658
 SpriteRenderer:
   serializedVersion: 2
@@ -30974,7 +31400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1061179386
 Transform:
   m_ObjectHideFlags: 0
@@ -31206,6 +31632,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1066331528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31744,11 +32176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1072770278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31811,6 +32243,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1072770280
 SpriteRenderer:
   serializedVersion: 2
@@ -32483,6 +32921,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1100457127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32695,6 +33139,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1112168851
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32868,6 +33318,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1117851347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33365,11 +33821,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1122462167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33432,6 +33888,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1122462169
 SpriteRenderer:
   serializedVersion: 2
@@ -33965,6 +34427,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1149513917
 SpriteRenderer:
   serializedVersion: 2
@@ -34071,11 +34539,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1156620429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34138,6 +34606,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1156620431
 SpriteRenderer:
   serializedVersion: 2
@@ -34311,6 +34785,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1160551059
 SpriteRenderer:
   serializedVersion: 2
@@ -34615,7 +35095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1173684016
 Transform:
   m_ObjectHideFlags: 0
@@ -34847,6 +35327,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1178768568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35232,6 +35718,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1193975571
 SpriteRenderer:
   serializedVersion: 2
@@ -35338,11 +35830,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &1194524799
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35405,6 +35897,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1194524801
 SpriteRenderer:
   serializedVersion: 2
@@ -35532,6 +36030,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1194880653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35839,6 +36343,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1247949879
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36542,6 +37052,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1268522359
 SpriteRenderer:
   serializedVersion: 2
@@ -36715,6 +37231,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1274138676
 SpriteRenderer:
   serializedVersion: 2
@@ -37039,6 +37561,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1275960908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37534,6 +38062,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1309645638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37870,11 +38404,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1313694763
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37937,6 +38471,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1313694765
 SpriteRenderer:
   serializedVersion: 2
@@ -38466,6 +39006,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1337351745
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38639,6 +39185,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1341256178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39042,6 +39594,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1349992044
 SpriteRenderer:
   serializedVersion: 2
@@ -39153,11 +39711,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1350687510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39220,6 +39778,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1350687512
 SpriteRenderer:
   serializedVersion: 2
@@ -39326,11 +39890,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1357967322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39393,6 +39957,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1357967324
 SpriteRenderer:
   serializedVersion: 2
@@ -39764,11 +40334,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &1376648542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39831,6 +40401,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1376648544
 SpriteRenderer:
   serializedVersion: 2
@@ -39937,11 +40513,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1377358213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40004,6 +40580,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1377358215
 SpriteRenderer:
   serializedVersion: 2
@@ -40294,11 +40876,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &1386452147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40361,6 +40943,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1386452149
 SpriteRenderer:
   serializedVersion: 2
@@ -40672,6 +41260,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1404994120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41209,24 +41803,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HazardSequenceTrigger
   hazards:
   - {fileID: 972212210}
-  - {fileID: 1744159072}
-  - {fileID: 1072770277}
-  - {fileID: 1122462166}
-  - {fileID: 1350687509}
-  - {fileID: 69963495}
+  - {fileID: 718129112}
+  - {fileID: 1377358212}
+  - {fileID: 76919276}
   - {fileID: 865721951}
+  - {fileID: 2002181365}
+  - {fileID: 912514631}
+  - {fileID: 1744159072}
+  - {fileID: 4664503}
+  - {fileID: 1156620428}
+  - {fileID: 1357967321}
+  - {fileID: 2034441206}
+  - {fileID: 1072770277}
   - {fileID: 374379677}
+  - {fileID: 1313694762}
+  - {fileID: 1639582708}
   - {fileID: 1470131162}
-  - {fileID: 1611885277}
   - {fileID: 2132345738}
-  - {fileID: 443071481}
   - {fileID: 230010205}
   - {fileID: 1828451911}
   - {fileID: 391229792}
   - {fileID: 1981145354}
-  - {fileID: 1313694762}
-  - {fileID: 2002181365}
   - {fileID: 1692449274}
+  - {fileID: 1072770277}
+  - {fileID: 69963495}
   - {fileID: 1848818791}
   - {fileID: 289280897}
   - {fileID: 2084424545}
@@ -41239,16 +41839,11 @@ MonoBehaviour:
   - {fileID: 399655324}
   - {fileID: 1404775955}
   - {fileID: 352208081}
-  - {fileID: 912514631}
-  - {fileID: 1639582708}
-  - {fileID: 4664503}
-  - {fileID: 1156620428}
-  - {fileID: 1357967321}
-  - {fileID: 2034441206}
-  - {fileID: 718129112}
-  - {fileID: 1377358212}
-  - {fileID: 76919276}
-  delayBetweenHazards: 0.15
+  - {fileID: 1122462166}
+  - {fileID: 1350687509}
+  - {fileID: 1611885277}
+  - {fileID: 443071481}
+  delayBetweenHazards: 0.05
   bossHealth: {fileID: 1920252756000741004}
   requirePhase1: 0
   requirePhase2: 1
@@ -42233,11 +42828,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1470131163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42300,6 +42895,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1470131165
 SpriteRenderer:
   serializedVersion: 2
@@ -42644,6 +43245,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1474917795
 SpriteRenderer:
   serializedVersion: 2
@@ -42817,6 +43424,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1482504677
 SpriteRenderer:
   serializedVersion: 2
@@ -42991,6 +43604,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1486103616
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43532,6 +44151,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1494758961
 SpriteRenderer:
   serializedVersion: 2
@@ -44949,6 +45574,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1531900407
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45122,6 +45753,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1537914482
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45295,6 +45932,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1543441481
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45514,6 +46157,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1544820249
 SpriteRenderer:
   serializedVersion: 2
@@ -46279,11 +46928,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &1570308998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46346,6 +46995,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1570309000
 SpriteRenderer:
   serializedVersion: 2
@@ -46470,7 +47125,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HazardSequenceTrigger
   hazards:
   - {fileID: 712494623}
+  - {fileID: 41978070}
+  - {fileID: 1194524798}
+  - {fileID: 1386452146}
+  - {fileID: 131525185}
+  - {fileID: 2017965626}
+  - {fileID: 1570308997}
   - {fileID: 1376648541}
+  - {fileID: 3297983}
+  - {fileID: 715410656}
   - {fileID: 277135499}
   - {fileID: 166958800}
   - {fileID: 115329966}
@@ -46482,11 +47145,9 @@ MonoBehaviour:
   - {fileID: 1173684017}
   - {fileID: 970143558}
   - {fileID: 622151369}
-  - {fileID: 3297983}
-  - {fileID: 715410656}
   - {fileID: 246871876}
   - {fileID: 733075068}
-  - {fileID: 788576130}
+  - {fileID: 2088700237}
   - {fileID: 1687550079}
   - {fileID: 889379499}
   - {fileID: 105897574}
@@ -46501,6 +47162,7 @@ MonoBehaviour:
   - {fileID: 1696670435}
   - {fileID: 1019091901}
   - {fileID: 2113047823}
+  - {fileID: 788576130}
   - {fileID: 626011352}
   - {fileID: 596694618}
   - {fileID: 1567456429}
@@ -46509,19 +47171,12 @@ MonoBehaviour:
   - {fileID: 227911008}
   - {fileID: 658049511}
   - {fileID: 1520943340}
-  - {fileID: 2088700237}
   - {fileID: 842472875}
-  - {fileID: 41978070}
   - {fileID: 59302855}
   - {fileID: 2020525872}
   - {fileID: 1998802191}
   - {fileID: 694192697}
-  - {fileID: 1194524798}
-  - {fileID: 1386452146}
-  - {fileID: 131525185}
-  - {fileID: 2017965626}
-  - {fileID: 1570308997}
-  delayBetweenHazards: 0.15
+  delayBetweenHazards: 0.1
   bossHealth: {fileID: 1920252756000741004}
   requirePhase1: 0
   requirePhase2: 0
@@ -47066,6 +47721,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1586704943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -47806,7 +48467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1609238961
 Transform:
   m_ObjectHideFlags: 0
@@ -48017,11 +48678,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1611885278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -48084,6 +48745,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1611885280
 SpriteRenderer:
   serializedVersion: 2
@@ -48745,6 +49412,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1624618854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49286,11 +49959,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1639582709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49353,6 +50026,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1639582711
 SpriteRenderer:
   serializedVersion: 2
@@ -49839,6 +50518,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1666597386
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -50446,6 +51131,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1678311094
 SpriteRenderer:
   serializedVersion: 2
@@ -50875,7 +51566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1687550078
 Transform:
   m_ObjectHideFlags: 0
@@ -52222,11 +52913,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &1744159073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52289,6 +52980,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1744159075
 SpriteRenderer:
   serializedVersion: 2
@@ -53151,6 +53848,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1765693911
 SpriteRenderer:
   serializedVersion: 2
@@ -54349,6 +55052,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1832486605
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54522,6 +55231,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1837055148
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -54741,6 +55456,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1840447919
 SpriteRenderer:
   serializedVersion: 2
@@ -55882,6 +56603,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &1865945568
 SpriteRenderer:
   serializedVersion: 2
@@ -56466,6 +57193,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &1891502976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56704,30 +57437,30 @@ MonoBehaviour:
   - {fileID: 1886511718}
   - {fileID: 1500943467}
   - {fileID: 1738916434}
+  - {fileID: 2063837486}
+  - {fileID: 1678311091}
+  - {fileID: 2017541997}
+  - {fileID: 1160551056}
+  - {fileID: 1349992041}
+  - {fileID: 1193975568}
+  - {fileID: 1494758958}
+  - {fileID: 470388339}
+  - {fileID: 1482504674}
+  - {fileID: 1268522356}
   - {fileID: 688790533}
   - {fileID: 53822306}
   - {fileID: 693299196}
   - {fileID: 1410551518}
   - {fileID: 908297821}
-  - {fileID: 2063837486}
-  - {fileID: 1482504674}
-  - {fileID: 1268522356}
-  - {fileID: 1349992041}
-  - {fileID: 1678311091}
-  - {fileID: 1193975568}
   - {fileID: 1990954206}
   - {fileID: 1459963709}
   - {fileID: 1098147041}
-  - {fileID: 1765693908}
   - {fileID: 418748354}
   - {fileID: 4487348}
   - {fileID: 456569244}
-  - {fileID: 2017541997}
-  - {fileID: 1494758958}
+  - {fileID: 1765693908}
   - {fileID: 162679663}
   - {fileID: 482342254}
-  - {fileID: 1160551056}
-  - {fileID: 470388339}
   delayBetweenHazards: 0.1
   bossHealth: {fileID: 1920252756000741004}
   requirePhase1: 0
@@ -56824,17 +57557,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03196478, y: 0.03575337}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 6.27, y: 6.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.19, y: 1}
+  m_Size: {x: 7.214611, y: 6.8002157}
   m_EdgeRadius: 0
 --- !u!114 &1917977050
 MonoBehaviour:
@@ -56848,7 +57581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
-  breakEffect: {fileID: 0}
+  breakEffect: {fileID: 2948350102577822564, guid: e28cf94c970de634489b535d3f8c9c32, type: 3}
   destroyStickOnBreak: 1
 --- !u!61 &1917977051
 BoxCollider2D:
@@ -56884,17 +57617,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0077199936, y: -0.0089457035}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 6.27, y: 6.28}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.211752, y: 6.305387}
   m_EdgeRadius: 0
 --- !u!212 &1917977052
 SpriteRenderer:
@@ -56945,8 +57678,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: -2047499463432599377, guid: 909faacb6d032a745a5960edd3d45ebf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -56965,7 +57698,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0049383235, w: 0.99998784}
   m_LocalPosition: {x: 28.48, y: -17.42, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 263424803}
@@ -58507,11 +59240,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &2002181366
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58574,6 +59307,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2002181368
 SpriteRenderer:
   serializedVersion: 2
@@ -58747,6 +59486,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2017542000
 SpriteRenderer:
   serializedVersion: 2
@@ -58853,11 +59598,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &2017965627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58920,6 +59665,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2017965629
 SpriteRenderer:
   serializedVersion: 2
@@ -59356,11 +60107,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &2034441207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59423,6 +60174,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2034441209
 SpriteRenderer:
   serializedVersion: 2
@@ -59826,6 +60583,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2063837489
 SpriteRenderer:
   serializedVersion: 2
@@ -60142,6 +60905,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &2074675970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60548,6 +61317,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  destroyPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
 --- !u!61 &2087609633
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60762,11 +61537,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
+  colliderDisabledDuration: 0.1
+  warningFlashInterval: 0.1
   warningFlashCount: 2
   fadeInDuration: 0.15
-  warningAlpha: 0.4
+  warningAlpha: 0.2
 --- !u!61 &2088700238
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -60829,6 +61604,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2088700240
 SpriteRenderer:
   serializedVersion: 2
@@ -61002,6 +61783,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2105772910
 SpriteRenderer:
   serializedVersion: 2
@@ -61453,11 +62240,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4ffe62649d21c447a8cc6bb4044e98d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HazardBoss
-  colliderDisabledDuration: 0.15
-  warningFlashInterval: 0.15
-  warningFlashCount: 2
-  fadeInDuration: 0.15
-  warningAlpha: 0.4
+  colliderDisabledDuration: 0
+  warningFlashInterval: 0.1
+  warningFlashCount: 1
+  fadeInDuration: 0.1
+  warningAlpha: 0.2
 --- !u!61 &2132345739
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61520,6 +62307,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  destroyPrefab: {fileID: 8322999154949559361, guid: 9f6958efbe2c853429676d011504fb37, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
 --- !u!212 &2132345741
 SpriteRenderer:
   serializedVersion: 2
