@@ -27,12 +27,20 @@ public class DisappearingPlatform : MonoBehaviour
     Color originalColor;
     bool triggered;
 
+    [Header("Collapse Offset")]
+    [SerializeField] float collapseYOffset = -0.1f;
+
+    Vector3 originalPosition;
+
+    [Header("Force Reset")]
+    [SerializeField] bool allowForceReset = false;
     void Awake()
     {
         col = GetComponent<Collider2D>();
         sr = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         if (sr != null) originalColor = sr.color;
+        originalPosition = transform.position;
     }
      
 
@@ -64,6 +72,7 @@ public class DisappearingPlatform : MonoBehaviour
     IEnumerator Sequence()
     {
         yield return new WaitForSeconds(collapseDelay);
+        transform.position += new Vector3(0f, collapseYOffset, 0f);
         if (anim != null)
             anim.SetTrigger(ANIM_COLLAPSE);
         // Fade out sprite
@@ -100,6 +109,7 @@ public class DisappearingPlatform : MonoBehaviour
     public void ResetPlatform()
     {
         StopAllCoroutines();
+        transform.position = originalPosition;
         triggered = false;
         col.enabled = true;
         if (sr != null)
@@ -109,5 +119,10 @@ public class DisappearingPlatform : MonoBehaviour
         }
         if (anim != null)
             anim.Play("NothingDisappearing", 0, 0f);
+    }
+    public void ForceReset()
+    {
+        if (!allowForceReset) return;
+        ResetPlatform();
     }
 }

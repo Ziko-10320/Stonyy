@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: f8c9dac3d8f7a224bbc6c2a7e32101db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6770189487961637129
+    second: DestroyEffect_022_0039_0
+  - first:
+      213: 7945614867663841856
+    second: DestroyEffect_022_0039_1
+  - first:
+      213: -6133080762967076780
+    second: DestroyEffect_022_0039_2
+  - first:
+      213: 7617708112360309790
+    second: DestroyEffect_022_0039_3
+  - first:
+      213: 2697649229716395681
+    second: DestroyEffect_022_0039_4
+  - first:
+      213: -4218295236303195877
+    second: DestroyEffect_022_0039_5
+  - first:
+      213: 6519008210617948942
+    second: DestroyEffect_022_0039_6
+  - first:
+      213: -3662318451029775348
+    second: DestroyEffect_022_0039_7
+  - first:
+      213: -5574805848034819789
+    second: DestroyEffect_022_0039_8
+  - first:
+      213: -600341643271163687
+    second: DestroyEffect_022_0039_9
+  - first:
+      213: 2857473032502041940
+    second: DestroyEffect_022_0039_10
+  - first:
+      213: 4323213758509900234
+    second: DestroyEffect_022_0039_11
+  - first:
+      213: 115880531636039615
+    second: DestroyEffect_022_0039_12
+  - first:
+      213: 6531722677636665304
+    second: DestroyEffect_022_0039_13
+  - first:
+      213: 73025792413275298
+    second: DestroyEffect_022_0039_14
+  - first:
+      213: -1917269281403877094
+    second: DestroyEffect_022_0039_15
+  - first:
+      213: -4116010653615526248
+    second: DestroyEffect_022_0039_16
+  - first:
+      213: 3730418122945479221
+    second: DestroyEffect_022_0039_17
+  - first:
+      213: 6475348643961608691
+    second: DestroyEffect_022_0039_18
+  - first:
+      213: -2429382734925987787
+    second: DestroyEffect_022_0039_19
+  - first:
+      213: 7773181585539701465
+    second: DestroyEffect_022_0039_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_0
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 600
+        width: 180
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9018904287b84fd50800000000000000
+      internalID: 6770189487961637129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_1
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 696
+        width: 117
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a6a2ddf9e744e60800000000000000
+      internalID: 7945614867663841856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_2
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 707
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 450d0906a8be2eaa0800000000000000
+      internalID: -6133080762967076780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_3
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 736
+        width: 69
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1409d7fa2987b960800000000000000
+      internalID: 7617708112360309790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_4
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 727
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a61ad18ea9ff6520800000000000000
+      internalID: 2697649229716395681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_5
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 720
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11fc6205da9575c0800000000000000
+      internalID: -4218295236303195877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_6
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 676
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bdcb9ad6b287a50800000000000000
+      internalID: 6519008210617948942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_7
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 649
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ce208c5c4dc2dc0800000000000000
+      internalID: -3662318451029775348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_8
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 604
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3314d182e9f42a2b0800000000000000
+      internalID: -5574805848034819789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 648
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b2f8c4782ba7f0800000000000000
+      internalID: -600341643271163687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_10
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 645
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dda816598c7a720800000000000000
+      internalID: 2857473032502041940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_11
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 535
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1601c02042ffb30800000000000000
+      internalID: 4323213758509900234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_12
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 545
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfac84cab0bb9100800000000000000
+      internalID: 115880531636039615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 535
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df85e33b2755aa50800000000000000
+      internalID: 6531722677636665304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_14
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 552
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a41c304290730100800000000000000
+      internalID: 73025792413275298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_15
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 530
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1947272fbd7465e0800000000000000
+      internalID: -1917269281403877094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_16
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 512
+        width: 135
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ee58b3e1ef0e6c0800000000000000
+      internalID: -4116010653615526248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_17
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 553
+        width: 87
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53248d9a48b15c330800000000000000
+      internalID: 3730418122945479221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_18
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 549
+        width: 124
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f99328a84f0dd950800000000000000
+      internalID: 6475348643961608691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_19
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 163
+        width: 735
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53005452649194ed0800000000000000
+      internalID: -2429382734925987787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0039_20
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 486
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da93bcc773efdb60800000000000000
+      internalID: 7773181585539701465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DestroyEffect_022_0039_0: 6770189487961637129
+      DestroyEffect_022_0039_1: 7945614867663841856
+      DestroyEffect_022_0039_10: 2857473032502041940
+      DestroyEffect_022_0039_11: 4323213758509900234
+      DestroyEffect_022_0039_12: 115880531636039615
+      DestroyEffect_022_0039_13: 6531722677636665304
+      DestroyEffect_022_0039_14: 73025792413275298
+      DestroyEffect_022_0039_15: -1917269281403877094
+      DestroyEffect_022_0039_16: -4116010653615526248
+      DestroyEffect_022_0039_17: 3730418122945479221
+      DestroyEffect_022_0039_18: 6475348643961608691
+      DestroyEffect_022_0039_19: -2429382734925987787
+      DestroyEffect_022_0039_2: -6133080762967076780
+      DestroyEffect_022_0039_20: 7773181585539701465
+      DestroyEffect_022_0039_3: 7617708112360309790
+      DestroyEffect_022_0039_4: 2697649229716395681
+      DestroyEffect_022_0039_5: -4218295236303195877
+      DestroyEffect_022_0039_6: 6519008210617948942
+      DestroyEffect_022_0039_7: -3662318451029775348
+      DestroyEffect_022_0039_8: -5574805848034819789
+      DestroyEffect_022_0039_9: -600341643271163687
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -49458,6 +49458,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  detectionPadding: 0.1
+  collapseYOffset: -0.1
 --- !u!61 &637455848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67372,8 +67378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
-  breakEffect: {fileID: 0}
   destroyStickOnBreak: 0
+  anim: {fileID: 0}
 --- !u!61 &846043174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -105037,6 +105043,7 @@ GameObject:
   - component: {fileID: 1315492331}
   - component: {fileID: 1315492330}
   - component: {fileID: 1315492329}
+  - component: {fileID: 1315492334}
   m_Layer: 9
   m_Name: BOX (1)
   m_TagString: Untagged
@@ -105148,8 +105155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
-  breakEffect: {fileID: 0}
   destroyStickOnBreak: 0
+  anim: {fileID: 0}
 --- !u!212 &1315492332
 SpriteRenderer:
   serializedVersion: 2
@@ -105224,6 +105231,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1095405202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1315492334
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315492328}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c977e6909ad07b141b9ac2aa8f78db2e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1316013332
 GameObject:
   m_ObjectHideFlags: 0
@@ -120387,6 +120416,7 @@ GameObject:
   - component: {fileID: 1513872656}
   - component: {fileID: 1513872655}
   - component: {fileID: 1513872654}
+  - component: {fileID: 1513872659}
   m_Layer: 9
   m_Name: BOX
   m_TagString: Untagged
@@ -120406,8 +120436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
-  breakEffect: {fileID: 0}
   destroyStickOnBreak: 0
+  anim: {fileID: 0}
 --- !u!61 &1513872655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -120574,6 +120604,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1095405202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1513872659
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513872653}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c977e6909ad07b141b9ac2aa8f78db2e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1514021264
 GameObject:
   m_ObjectHideFlags: 0

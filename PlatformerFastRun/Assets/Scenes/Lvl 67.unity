@@ -6683,6 +6683,7 @@ GameObject:
   - component: {fileID: 208786241}
   - component: {fileID: 208786240}
   - component: {fileID: 208786239}
+  - component: {fileID: 208786243}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -6706,6 +6707,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &208786240
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6826,6 +6833,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &208786243
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208786238}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &209475216
 GameObject:
   m_ObjectHideFlags: 0
@@ -13392,6 +13421,7 @@ GameObject:
   - component: {fileID: 376123187}
   - component: {fileID: 376123186}
   - component: {fileID: 376123185}
+  - component: {fileID: 376123189}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -13415,6 +13445,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &376123186
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13535,6 +13571,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &376123189
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376123184}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &383065094
 GameObject:
   m_ObjectHideFlags: 0
@@ -16813,6 +16871,7 @@ GameObject:
   - component: {fileID: 467186818}
   - component: {fileID: 467186817}
   - component: {fileID: 467186816}
+  - component: {fileID: 467186820}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -16836,6 +16895,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &467186817
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16956,6 +17021,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &467186820
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467186815}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &467975633
 GameObject:
   m_ObjectHideFlags: 0
@@ -29107,8 +29194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
-  breakEffect: {fileID: 0}
   destroyStickOnBreak: 0
+  anim: {fileID: 0}
 --- !u!61 &846043174
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36806,6 +36893,7 @@ GameObject:
   - component: {fileID: 993820889}
   - component: {fileID: 993820888}
   - component: {fileID: 993820887}
+  - component: {fileID: 993820891}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -36829,6 +36917,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &993820888
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36949,6 +37043,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &993820891
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993820886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &995729491
 GameObject:
   m_ObjectHideFlags: 0
@@ -38521,6 +38637,7 @@ GameObject:
   - component: {fileID: 1052220637}
   - component: {fileID: 1052220636}
   - component: {fileID: 1052220635}
+  - component: {fileID: 1052220639}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -38544,6 +38661,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1052220636
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38664,6 +38787,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1052220639
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052220634}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1052353285
 GameObject:
   m_ObjectHideFlags: 0
@@ -46651,6 +46796,7 @@ GameObject:
   - component: {fileID: 1269615318}
   - component: {fileID: 1269615317}
   - component: {fileID: 1269615316}
+  - component: {fileID: 1269615320}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -46674,6 +46820,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1269615317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46794,6 +46946,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1269615320
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269615315}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1270519757
 GameObject:
   m_ObjectHideFlags: 0
@@ -51665,6 +51839,7 @@ GameObject:
   - component: {fileID: 1381301834}
   - component: {fileID: 1381301833}
   - component: {fileID: 1381301832}
+  - component: {fileID: 1381301836}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -51688,6 +51863,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1381301833
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -51808,6 +51989,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1381301836
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381301831}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1383555046
 GameObject:
   m_ObjectHideFlags: 0
@@ -53840,6 +54043,7 @@ GameObject:
   - component: {fileID: 1438402785}
   - component: {fileID: 1438402784}
   - component: {fileID: 1438402783}
+  - component: {fileID: 1438402787}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -53863,6 +54067,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1438402784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -53983,6 +54193,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1438402787
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438402782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1439573516
 GameObject:
   m_ObjectHideFlags: 0
@@ -61783,6 +62015,7 @@ GameObject:
   - component: {fileID: 1632799257}
   - component: {fileID: 1632799256}
   - component: {fileID: 1632799255}
+  - component: {fileID: 1632799259}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -61806,6 +62039,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1632799256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61926,6 +62165,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1632799259
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632799254}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1634302095
 GameObject:
   m_ObjectHideFlags: 0
@@ -63907,6 +64168,7 @@ GameObject:
   - component: {fileID: 1673026943}
   - component: {fileID: 1673026942}
   - component: {fileID: 1673026941}
+  - component: {fileID: 1673026945}
   m_Layer: 6
   m_Name: WOLS
   m_TagString: Untagged
@@ -63930,6 +64192,12 @@ MonoBehaviour:
   disappearDelay: 1.5
   fadeOut: 1
   fadeDuration: 0.4
+  dustPrefab: {fileID: 919604803796202130, guid: 4eb460c26481e6544bb5ca065ba684df, type: 3}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  detectionPadding: 0.1
+  collapseYOffset: -3.1
 --- !u!61 &1673026942
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64050,6 +64318,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 636096724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1673026945
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673026940}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d84ff64b180c2a04d873b1618cbe0ed6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1673117310
 GameObject:
   m_ObjectHideFlags: 0

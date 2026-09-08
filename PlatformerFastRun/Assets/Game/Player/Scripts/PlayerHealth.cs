@@ -73,49 +73,63 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator DeathAndRespawnSequence()
     {
         DestroyAllThrownSticks();
-        // Disable movement immediately
         movement.enabled = false;
-        movement.RespawnReset(); // zero velocity / reset state before disabling
+        movement.RespawnReset();
         anim.SetBool("Slide", false);
         anim.SetBool("WallSlide", false);
         anim.SetBool("IdleWall", false);
-        // Play death anim and wait
         anim.SetTrigger(ANIM_DEATH);
         yield return new WaitForSeconds(0.5f);
 
-        // Teleport to checkpoint
         Vector3 spawnPos = checkpointManager != null
             ? checkpointManager.GetLastCheckpointPosition()
             : transform.position;
         transform.position = spawnPos;
+        checkpointManager.RespawnBoss();  
 
-        // Reset health and facing direction
         currentHealth = maxHealth;
 
         foreach (var zone in FindObjectsByType<WheelSawZone>(FindObjectsSortMode.None))
-            zone.ResetZone();
+        {
+            try { zone.ResetZone(); }
+            catch (System.Exception e) { Debug.LogError($"WheelSawZone reset failed on {zone.name}: {e}"); }
+        }
 
         foreach (var box in FindObjectsByType<BreakableBox>(FindObjectsSortMode.None))
-            box.ResetBox();
+        {
+            try { box.ResetBox(); }
+            catch (System.Exception e) { Debug.LogError($"BreakableBox reset failed on {box.name}: {e}"); }
+        }
 
         foreach (var hazard in FindObjectsByType<HazardBoss>(FindObjectsSortMode.None))
         {
-            hazard.ResetHazard();
-            hazard.gameObject.SetActive(false);
+            try
+            {
+                hazard.ResetHazard();
+                hazard.gameObject.SetActive(false);
+            }
+            catch (System.Exception e) { Debug.LogError($"HazardBoss reset failed on {hazard.name}: {e}"); }
         }
 
         foreach (var zone in FindObjectsByType<HazardSequenceTrigger>(FindObjectsSortMode.None))
-            zone.ResetZone();
+        {
+            try { zone.ResetZone(); }
+            catch (System.Exception e) { Debug.LogError($"HazardSequenceTrigger reset failed on {zone.name}: {e}"); }
+        }
 
         foreach (var zone in FindObjectsByType<HazardDestroyTrigger>(FindObjectsSortMode.None))
-            zone.ResetZone();
-        foreach (var boss in FindObjectsByType<BossHealth>(FindObjectsSortMode.None))
-            boss.ResetBoss();
-        // Play respawn anim and wait
+        {
+            try { zone.ResetZone(); }
+            catch (System.Exception e) { Debug.LogError($"HazardDestroyTrigger reset failed on {zone.name}: {e}"); }
+        }
+        foreach (var zone in FindObjectsByType<PatrolTriggerZone>(FindObjectsSortMode.None))
+        {
+            try { zone.ResetTrigger(); }
+            catch (System.Exception e) { Debug.LogError($"PatrolTriggerZone reset failed on {zone.name}: {e}"); }
+        }
         anim.SetTrigger(ANIM_RESPAWN);
         yield return new WaitForSeconds(0.5f);
 
-        // Re-enable movement — always facing right
         movement.enabled = true;
         movement.RespawnReset();
         movement.ResetDirection();
@@ -142,6 +156,6 @@ public class PlayerHealth : MonoBehaviour
         isInvincible = true;
         invincibilityTimer = invincibilityDuration;
 
-        movement.RespawnReset();
+        movement.RespawnReset();  
     }
 }

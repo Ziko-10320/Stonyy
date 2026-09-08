@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: b226e184c637f2e40960b5a449efdd2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8758179430194659364
+    second: DestroyEffect_022_0034_0
+  - first:
+      213: -8409904408124013717
+    second: DestroyEffect_022_0034_1
+  - first:
+      213: 5197006726288989312
+    second: DestroyEffect_022_0034_2
+  - first:
+      213: -6787607628156252376
+    second: DestroyEffect_022_0034_3
+  - first:
+      213: -5740047038801991695
+    second: DestroyEffect_022_0034_4
+  - first:
+      213: -7693665823002511614
+    second: DestroyEffect_022_0034_5
+  - first:
+      213: -3785139034055890393
+    second: DestroyEffect_022_0034_6
+  - first:
+      213: -7528204492318694312
+    second: DestroyEffect_022_0034_7
+  - first:
+      213: 6549690281046504830
+    second: DestroyEffect_022_0034_8
+  - first:
+      213: -7077549102246589938
+    second: DestroyEffect_022_0034_9
+  - first:
+      213: 4058466782243317032
+    second: DestroyEffect_022_0034_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_0
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 661
+        width: 195
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf3d180632b47680800000000000000
+      internalID: -8758179430194659364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_1
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 757
+        width: 184
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63c6c69f740a4b80800000000000000
+      internalID: -8409904408124013717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_2
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 788
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c55c7251a7f1840800000000000000
+      internalID: 5197006726288989312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_3
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 795
+        width: 94
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fc30113d29dc1a0800000000000000
+      internalID: -6787607628156252376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_4
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 774
+        width: 87
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7ac2a51a14750b0800000000000000
+      internalID: -5740047038801991695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_5
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 250
+        width: 724
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2073f5f52bb9a3590800000000000000
+      internalID: -7693665823002511614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_6
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 718
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a22a16a1c787bc0800000000000000
+      internalID: -3785139034055890393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_7
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 716
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85428de76e1768790800000000000000
+      internalID: -7528204492318694312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_8
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 713
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75fa9edb9c25ea50800000000000000
+      internalID: 6549690281046504830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_9
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 614
+        width: 207
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a0538079e77cd90800000000000000
+      internalID: -7077549102246589938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DestroyEffect_022_0034_10
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 560
+        width: 57
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825e5582902925830800000000000000
+      internalID: 4058466782243317032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DestroyEffect_022_0034_0: -8758179430194659364
+      DestroyEffect_022_0034_1: -8409904408124013717
+      DestroyEffect_022_0034_10: 4058466782243317032
+      DestroyEffect_022_0034_2: 5197006726288989312
+      DestroyEffect_022_0034_3: -6787607628156252376
+      DestroyEffect_022_0034_4: -5740047038801991695
+      DestroyEffect_022_0034_5: -7693665823002511614
+      DestroyEffect_022_0034_6: -3785139034055890393
+      DestroyEffect_022_0034_7: -7528204492318694312
+      DestroyEffect_022_0034_8: 6549690281046504830
+      DestroyEffect_022_0034_9: -7077549102246589938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,4 +16,8 @@ public class PatrolTriggerZone : MonoBehaviour
         triggered = true;
         boss.StartPatrol();
     }
+    public void ResetTrigger()
+    {
+        triggered = false;
+    }
 }

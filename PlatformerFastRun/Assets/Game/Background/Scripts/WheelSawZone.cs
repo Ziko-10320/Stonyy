@@ -8,7 +8,7 @@ public class WheelSawZone : MonoBehaviour
 
     bool hasTriggered = false;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (hasTriggered) return;
         if (!other.CompareTag("Player")) return;
@@ -20,7 +20,9 @@ public class WheelSawZone : MonoBehaviour
     public void ResetZone()
     {
         hasTriggered = false;
-        wheelSawAnimator.ResetTrigger(triggerName);
+        if (wheelSawAnimator != null)
+            wheelSawAnimator.ResetTrigger(triggerName);
+
         wheelSawAnimator.Play(resetStateName, 0, 0f);
     }
 }
