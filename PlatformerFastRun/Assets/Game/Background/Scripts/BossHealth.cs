@@ -120,7 +120,11 @@ public class BossHealth : MonoBehaviour
 
     bool isReactionPlaying;
 
-    bool patrolTriggerReached;  
+    bool patrolTriggerReached;
+
+    const string AnimFinalPoseLoop = "FinalPoseLoop";
+
+    bool isDead;
     void Awake()
     {
         livesRemaining = lifeObjects.Length;
@@ -166,6 +170,9 @@ public class BossHealth : MonoBehaviour
     {
         StopAllCoroutines();
 
+        isDead = false;
+        gameObject.SetActive(true); // in case it was disabled from a prior death
+
         // reset position
         transform.position = initialPosition;
 
@@ -203,6 +210,8 @@ public class BossHealth : MonoBehaviour
     }
     public void TakeHit(GameObject hitLifeObject)
     {
+        if (isDead) return;
+
         for (int i = 0; i < lifeObjects.Length; i++)
         {
             if (lifeObjects[i] == hitLifeObject && lifeObjects[i].activeSelf)
@@ -216,7 +225,11 @@ public class BossHealth : MonoBehaviour
                 break;
             }
         }
-
+        if (livesRemaining <= 0)
+        {
+            Die();
+            return; // skip the rest of the hit logic — boss is dead
+        }
         StartCoroutine(MoveOnHit(livesRemaining == 1 ? moveTargetPhase3 : moveTarget));
 
         if (!phase2Triggered)
@@ -226,7 +239,12 @@ public class BossHealth : MonoBehaviour
             StartCoroutine(Phase2Transition());
         }
     }
-
+    void Die()
+    {
+        isDead = true;
+        StopAllCoroutines(); // stop patrol, reactions, eye tracking, any in-progress moves
+        gameObject.SetActive(false);
+    }
     IEnumerator MoveOnHit(Transform target)
     {
         yield return new WaitForSeconds(delayBeforeMove);
@@ -355,6 +373,8 @@ public class BossHealth : MonoBehaviour
         if (pp.unlockPhase3Part2)
         {
             Phase3Part2Unlocked = true;
+            if (animator != null)
+                animator.SetTrigger(AnimFinalPoseLoop);  
         }
     }
     bool IsPlayerInHitRange()
@@ -493,6 +513,12 @@ public class BossHealth : MonoBehaviour
         else if (targetPhase == Phase.Phase3 && moveTargetPhase3 != null)
             transform.position = moveTargetPhase3.position;
 
+        if (animator != null)
+            animator.SetTrigger(AnimIdle);
+
+        isDead = false;
+        gameObject.SetActive(true);
+
         // Lives — exact objects per phase
         ApplyLifeConfigForPhase(targetPhase);
 
@@ -516,6 +542,7 @@ public class BossHealth : MonoBehaviour
         isReactionPlaying = false;
         lastReactionPlayed = "";
         reactionWatcherCoroutine = StartCoroutine(ReactionWatcher());
+
     }
 
     void ApplyLifeConfigForPhase(Phase phase)

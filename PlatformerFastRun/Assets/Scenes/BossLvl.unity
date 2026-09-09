@@ -13227,7 +13227,7 @@ Transform:
   m_GameObject: {fileID: 357555777}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 67.2, y: 312.8, z: 0}
+  m_LocalPosition: {x: 61.3, y: 313.1, z: 0}
   m_LocalScale: {x: 3.6447816, y: 3.6447816, z: 3.6447816}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17632,7 +17632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51348fdae98e0941961cb61602da10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossLifeObject
-  destroyEffectPrefab: {fileID: 7060798239672359689, guid: 155e67b4110a3734e9e161e1bcfa2552, type: 3}
+  destroyEffectPrefab: {fileID: 676136657574822511, guid: 77bed097eecd13b45a5142c5d83790e6, type: 3}
   effectSpawnPoint: {fileID: 1877969111}
 --- !u!212 &487373138
 SpriteRenderer:
@@ -26431,7 +26431,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: d8c95674c3e589d4a84691eac919d3fa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -66978,7 +66978,7 @@ MonoBehaviour:
   lifeObjects:
   - {fileID: 1765111609}
   - {fileID: 422373936}
-  - {fileID: 6661722414561993605}
+  - {fileID: 487373134}
   phase1ActiveLives:
   - {fileID: 1765111609}
   - {fileID: 422373936}
@@ -67336,7 +67336,7 @@ Transform:
   m_GameObject: {fileID: 258641126483503512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.01500003, y: -0.10999966, z: 0}
+  m_LocalPosition: {x: 0.01500003, y: -0.1099997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68320,7 +68320,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 1.745
+  m_Radius: 1.57
 --- !u!114 &6661722414561993607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68333,7 +68333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51348fdae98e0941961cb61602da10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossLifeObject
-  destroyEffectPrefab: {fileID: 7060798239672359689, guid: 155e67b4110a3734e9e161e1bcfa2552, type: 3}
+  destroyEffectPrefab: {fileID: 676136657574822511, guid: 77bed097eecd13b45a5142c5d83790e6, type: 3}
   effectSpawnPoint: {fileID: 1877969111}
 --- !u!1 &6860756515738720785
 GameObject:
