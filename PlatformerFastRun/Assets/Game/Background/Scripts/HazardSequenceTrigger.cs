@@ -1,8 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HazardSequenceTrigger : MonoBehaviour
 {
+    public static readonly List<HazardSequenceTrigger> All = new List<HazardSequenceTrigger>();
+
     [Header("Hazards")]
     [SerializeField] HazardBoss[] hazards;
 
@@ -18,6 +21,15 @@ public class HazardSequenceTrigger : MonoBehaviour
 
     bool triggered;
 
+    void OnEnable()
+    {
+        All.Add(this);
+    }
+
+    void OnDisable()
+    {
+        All.Remove(this);
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         TryActivate(other);

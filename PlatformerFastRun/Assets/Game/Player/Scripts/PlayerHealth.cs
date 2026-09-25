@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
@@ -18,17 +18,20 @@ public class PlayerHealth : MonoBehaviour
     public int CurrentHealth => currentHealth;
     public int MaxHealth => maxHealth;
 
-    const string ANIM_DEATH = "Death";
-    const string ANIM_RESPAWN = "Respawn";
+    static readonly int ANIM_DEATH = Animator.StringToHash("Death");
+    static readonly int ANIM_RESPAWN = Animator.StringToHash("Respawn");
 
     Animator anim;
 
+    
     void Awake()
     {
         movement = GetComponent<PlayerMovement>();
         anim = GetComponent<Animator>();
         checkpointManager = FindFirstObjectByType<CheckpointManager>();
         currentHealth = maxHealth;
+
+        
     }
 
     void Update()
@@ -56,7 +59,7 @@ public class PlayerHealth : MonoBehaviour
         {
             isInvincible = true;
             invincibilityTimer = invincibilityDuration;
-            // flash feedback � optional, hook your animator here
+            // flash feedback — optional, hook your animator here
         }
     }
 
@@ -85,23 +88,24 @@ public class PlayerHealth : MonoBehaviour
             ? checkpointManager.GetLastCheckpointPosition()
             : transform.position;
         transform.position = spawnPos;
-        checkpointManager.RespawnBoss();  
+        checkpointManager.RespawnBoss();
 
         currentHealth = maxHealth;
 
-        foreach (var zone in FindObjectsByType<WheelSawZone>(FindObjectsSortMode.None))
+        // Use ToArray() snapshot so ResetZone/SetActive changes to the list mid-loop don't break iteration
+        foreach (var zone in WheelSawZone.All.ToArray())
         {
             try { zone.ResetZone(); }
             catch (System.Exception e) { Debug.LogError($"WheelSawZone reset failed on {zone.name}: {e}"); }
         }
 
-        foreach (var box in FindObjectsByType<BreakableBox>(FindObjectsSortMode.None))
+        foreach (var box in BreakableBox.All.ToArray())
         {
             try { box.ResetBox(); }
             catch (System.Exception e) { Debug.LogError($"BreakableBox reset failed on {box.name}: {e}"); }
         }
 
-        foreach (var hazard in FindObjectsByType<HazardBoss>(FindObjectsSortMode.None))
+        foreach (var hazard in HazardBoss.All.ToArray())
         {
             try
             {
@@ -111,22 +115,24 @@ public class PlayerHealth : MonoBehaviour
             catch (System.Exception e) { Debug.LogError($"HazardBoss reset failed on {hazard.name}: {e}"); }
         }
 
-        foreach (var zone in FindObjectsByType<HazardSequenceTrigger>(FindObjectsSortMode.None))
+        foreach (var zone in HazardSequenceTrigger.All.ToArray())
         {
             try { zone.ResetZone(); }
             catch (System.Exception e) { Debug.LogError($"HazardSequenceTrigger reset failed on {zone.name}: {e}"); }
         }
 
-        foreach (var zone in FindObjectsByType<HazardDestroyTrigger>(FindObjectsSortMode.None))
+        foreach (var zone in HazardDestroyTrigger.All.ToArray())
         {
             try { zone.ResetZone(); }
             catch (System.Exception e) { Debug.LogError($"HazardDestroyTrigger reset failed on {zone.name}: {e}"); }
         }
-        foreach (var zone in FindObjectsByType<PatrolTriggerZone>(FindObjectsSortMode.None))
+
+        foreach (var zone in PatrolTriggerZone.All.ToArray())
         {
             try { zone.ResetTrigger(); }
             catch (System.Exception e) { Debug.LogError($"PatrolTriggerZone reset failed on {zone.name}: {e}"); }
         }
+
         anim.SetTrigger(ANIM_RESPAWN);
         yield return new WaitForSeconds(0.5f);
 
@@ -144,18 +150,5 @@ public class PlayerHealth : MonoBehaviour
         currentHealth = 0;
         Die();
     }
-    void Respawn()
-    {
-        Vector3 spawnPos = checkpointManager != null
-            ? checkpointManager.GetLastCheckpointPosition()
-            : transform.position;
-
-        transform.position = spawnPos;
-        currentHealth = maxHealth;
-        isDead = false;
-        isInvincible = true;
-        invincibilityTimer = invincibilityDuration;
-
-        movement.RespawnReset();  
-    }
+     
 }

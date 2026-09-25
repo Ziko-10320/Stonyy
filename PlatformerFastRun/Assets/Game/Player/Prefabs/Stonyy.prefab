@@ -30193,7 +30193,7 @@ Transform:
   m_GameObject: {fileID: 5012083167286983026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20000005, y: 1.91, z: 0}
+  m_LocalPosition: {x: 0.2, y: 1.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35357,6 +35357,7 @@ GameObject:
   - component: {fileID: 8834348810370268038}
   - component: {fileID: 1628740215641033092}
   - component: {fileID: 3299147868259536985}
+  - component: {fileID: 7866773605681568590}
   m_Layer: 8
   m_Name: Stonyy
   m_TagString: Player
@@ -35499,7 +35500,7 @@ MonoBehaviour:
   airDashDuration: 0.28
   airDashGravityScale: 0
   airDashSpeedBoostPercent: 60
-  airDashBoostDuration: 3
+  airDashBoostDuration: 4.5
   landRecoveryTime: 0.1
   groundCheck: {fileID: 1901010093937645821}
   groundCheckRadius: 0.25
@@ -35518,7 +35519,7 @@ MonoBehaviour:
   inputActions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   slideInputActions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   slideSpeedBoostPercent: 60
-  slideBoostDuration: 3
+  slideBoostDuration: 4.5
   airSlamSpeed: 52
   trail1Boost1: {fileID: 1809109914540998694}
   trail2Boost1: {fileID: 2525944900930842640}
@@ -35556,6 +35557,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 1
   invincibilityDuration: 0.5
+--- !u!114 &7866773605681568590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7409048736035635135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11471fc1c5f7dc34da315c5febd24cf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TouchControls
+  playerMovement: {fileID: 1628740215641033092}
 --- !u!1 &7765848774506630223
 GameObject:
   m_ObjectHideFlags: 0
@@ -35863,7 +35877,7 @@ Transform:
   m_GameObject: {fileID: 8487616718380746971}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.67499995, y: 2.545, z: 0}
+  m_LocalPosition: {x: -0.675, y: 2.545, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

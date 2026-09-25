@@ -1,13 +1,25 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PatrolTriggerZone : MonoBehaviour
 {
+    public static readonly List<PatrolTriggerZone> All = new List<PatrolTriggerZone>();
+
     [SerializeField] BossHealth boss;
     [SerializeField] string playerTag = "Player";
     [SerializeField] bool triggerOnce = true;
 
     bool triggered;
 
+    void OnEnable()
+    {
+        All.Add(this);
+    }
+
+    void OnDisable()
+    {
+        All.Remove(this);
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (triggered && triggerOnce) return;

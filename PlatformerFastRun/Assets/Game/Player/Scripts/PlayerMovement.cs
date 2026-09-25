@@ -102,18 +102,17 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float leafHitStopTimeScale = 0.05f;
 
     Coroutine hitStopCoroutine;
-
     // ── Animator triggers ─────────────────────────────────────────────────
-    const string ANIM_JUMP = "Jump";
-    const string ANIM_FALL = "Fall";
-    const string ANIM_LAND = "Land";
-    const string ANIM_AIR_DASH = "AirDash";
-    const string ANIM_WALL_SLIDE = "WallSlide";
-    const string ANIM_WALL_JUMP = "WallJump";
-    const string ANIM_IDLE_WALL = "IdleWall";
-    const string ANIM_SLIDE = "Slide";
-    const string ANIM_DIAGONAL_SLIDE = "DiagonalSlide";
-    const string ANIM_UPWARD_DASH = "UpwardDash";
+    static readonly int ANIM_JUMP = Animator.StringToHash("Jump");
+    static readonly int ANIM_FALL = Animator.StringToHash("Fall");
+    static readonly int ANIM_LAND = Animator.StringToHash("Land");
+    static readonly int ANIM_AIR_DASH = Animator.StringToHash("AirDash");
+    static readonly int ANIM_WALL_SLIDE = Animator.StringToHash("WallSlide");
+    static readonly int ANIM_WALL_JUMP = Animator.StringToHash("WallJump");
+    static readonly int ANIM_IDLE_WALL = Animator.StringToHash("IdleWall");
+    static readonly int ANIM_SLIDE = Animator.StringToHash("Slide");
+    static readonly int ANIM_DIAGONAL_SLIDE = Animator.StringToHash("DiagonalSlide");
+    static readonly int ANIM_UPWARD_DASH = Animator.StringToHash("UpwardDash");
     // ── State ─────────────────────────────────────────────────────────────
     enum State { Run, Jump, Fall, AirDash, Land, WallSlide, Slide, AirSlide, UpwardDash }
     // ── Private references ────────────────────────────────────────────────
@@ -160,6 +159,10 @@ public class PlayerMovement : MonoBehaviour
     public bool WasWallSliding { get; private set; }
 
     public bool IsGrounded => isGrounded;
+
+    static readonly WaitForFixedUpdate waitFixedUpdate = new WaitForFixedUpdate();
+
+    WaitForSeconds trail1Boost1Wait, trail2Boost1Wait, trail1Boost2Wait, trail2Boost2Wait;
     // ─────────────────────────────────────────────────────────────────────
     void Awake()
     {
@@ -169,8 +172,20 @@ public class PlayerMovement : MonoBehaviour
         var map = inputActions.FindActionMap("Player", throwIfNotFound: true);
         mvmtAction = map.FindAction("Mvmt", throwIfNotFound: true);
         slideAction = map.FindAction("Slide", throwIfNotFound: true);
-    }
 
+        trail1Boost1Wait = new WaitForSeconds(trail1Boost1.time);
+        trail2Boost1Wait = new WaitForSeconds(trail2Boost1.time);
+        trail1Boost2Wait = new WaitForSeconds(trail1Boost2.time);
+        trail2Boost2Wait = new WaitForSeconds(trail2Boost2.time);
+
+       
+    }
+    IEnumerator StopTrail(TrailRenderer trail, WaitForSeconds cachedWait)
+    {
+        trail.emitting = false;
+        yield return cachedWait;
+        trail.gameObject.SetActive(false);
+    }
     void OnEnable()
     {
         mvmtAction.Enable();
@@ -1004,6 +1019,30 @@ public class PlayerMovement : MonoBehaviour
         if (hitStopCoroutine != null) StopCoroutine(hitStopCoroutine);
         hitStopCoroutine = StartCoroutine(DoHitStop(duration, timeScale));
     }
+
+    public void StopForCutscene()
+    {
+        // Kill all motion so the end-level pose doesn't slide or drift
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = 0f;
+
+        // Clear any animator flags/triggers so they don't fight the end-level anim
+        anim.SetBool(ANIM_IDLE_WALL, false);
+        anim.SetBool(ANIM_WALL_SLIDE, false);
+        anim.SetBool(ANIM_SLIDE, false);
+        anim.ResetTrigger(ANIM_JUMP);
+        anim.ResetTrigger(ANIM_FALL);
+        anim.ResetTrigger(ANIM_AIR_DASH);
+        anim.ResetTrigger(ANIM_LAND);
+        anim.ResetTrigger(ANIM_DIAGONAL_SLIDE);
+        anim.ResetTrigger(ANIM_UPWARD_DASH);
+    }
+
+    // ── Touch Controls (mobile) ─────────────────────────────────────────────
+    public void TouchJumpPressed() => OnMvmtPerformed(default);
+    public void TouchJumpReleased() => OnMvmtCanceled(default);
+    public void TouchSlidePressed() => OnSlidePerformed(default);
+    public void TouchSlideReleased() => OnSlideCanceled(default);
     // ── Gizmos ────────────────────────────────────────────────────────────
 
     void OnDrawGizmos()

@@ -41,17 +41,7 @@ public class CameraFollow : MonoBehaviour
         if (target != null)
             lastTargetY = target.position.y;
     }
-    Collider2D GetActiveBounds()
-    {
-        if (cameraBounds == null || cameraBounds.Length == 0) return null;
-
-        foreach (var b in cameraBounds)
-        {
-            if (b != null && b.OverlapPoint(target.position))
-                return b;
-        }
-        return null;
-    }
+   
     void LateUpdate()
     {
         if (target == null)
@@ -121,8 +111,7 @@ public class CameraFollow : MonoBehaviour
             bool hadEntry = wallWasActive.TryGetValue(wall, out var prevActive);
             bool wasActiveBefore = hadEntry && prevActive;
 
-            if (wall != null)
-                Debug.Log($"[{wall.name}] active={wall.gameObject.activeInHierarchy} armed={(wallArmed.TryGetValue(wall, out var a) && a)} bounds={wall.bounds}");
+           
             if (!isActiveNow)
             {
                 wallWasActive[wall] = false;

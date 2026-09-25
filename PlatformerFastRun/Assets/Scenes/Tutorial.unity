@@ -20097,7 +20097,15 @@ MonoBehaviour:
   target: {fileID: 2029352133}
   smoothSpeed: 0.1
   baseOffset: {x: 0, y: 6, z: -100}
+  fallLookaheadDistance: 3
+  fallLookaheadSmoothing: 0.05
+  lookaheadZones: []
+  fallDetectionThreshold: 0.05
+  fallReleaseDelay: 0.25
   lockYAxis: 0
+  cameraBounds: []
+  useBounds: 1
+  boundsSmoothSpeed: 0.08
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84185,6 +84193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StickPickUp
       objectReference: {fileID: 0}
+    - target: {fileID: 7671320584995273644, guid: 740e890b6dcca194a848960bd96ce10b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8007612083471051452, guid: 740e890b6dcca194a848960bd96ce10b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.6209
@@ -84734,6 +84746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeafToPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 7712868486091615620, guid: d7bc2a51f61ead24e969a3bcccb39670, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84953,6 +84969,10 @@ PrefabInstance:
     - target: {fileID: 7409048736035635135, guid: e746900e9f809d04c83017dc53930b8e, type: 3}
       propertyPath: m_Name
       value: Stonyy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7409048736035635135, guid: e746900e9f809d04c83017dc53930b8e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

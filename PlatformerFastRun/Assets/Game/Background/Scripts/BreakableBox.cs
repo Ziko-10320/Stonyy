@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class BreakableBox : MonoBehaviour
 {
+    public static readonly List<BreakableBox> All = new List<BreakableBox>();
+
     [SerializeField] bool destroyStickOnBreak = false;
     [SerializeField] Animator anim;
     const string ANIM_BREAK = "BoxDestruction"; // must match your Trigger parameter name
@@ -12,6 +15,15 @@ public class BreakableBox : MonoBehaviour
 
     public bool DestroyStickOnBreak => destroyStickOnBreak;
 
+    void OnEnable()
+    {
+        All.Add(this);
+    }
+
+    void OnDisable()
+    {
+        All.Remove(this);
+    }
     void Awake()
     {
         colliders = GetComponents<Collider2D>();

@@ -1,8 +1,11 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class HazardBoss : MonoBehaviour
 {
+    public static readonly List<HazardBoss> All = new List<HazardBoss>();
+
     [Header("Warning")]
     [SerializeField] float colliderDisabledDuration = 0.3f;
     [SerializeField] float warningFlashInterval = 0.15f;
@@ -16,8 +19,16 @@ public class HazardBoss : MonoBehaviour
     static readonly Color White = Color.white;
     static readonly Color Red = new Color(1f, 0.15f, 0.15f, 1f);
 
-   
 
+    void OnEnable()
+    {
+        All.Add(this);
+    }
+
+    void OnDisable()
+    {
+        All.Remove(this);
+    }
     public void Activate()
     {
         StopAllCoroutines();

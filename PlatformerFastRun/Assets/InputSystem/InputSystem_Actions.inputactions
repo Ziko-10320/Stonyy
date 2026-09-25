@@ -50,11 +50,11 @@
                 },
                 {
                     "name": "",
-                    "id": "660cce55-a57d-4481-9d3f-0e5a4c3539bb",
+                    "id": "cd9f470e-6048-40cf-9416-f06d485509c4",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Mvmt",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -65,18 +65,18 @@
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "06574942-3894-40a4-a6fd-02a1716f63b7",
+                    "id": "8065412c-53bf-4322-ae80-863149a1c113",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard&Mouse",
                     "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
