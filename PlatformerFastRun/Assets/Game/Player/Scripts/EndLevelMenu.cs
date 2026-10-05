@@ -75,7 +75,33 @@ public class EndLevelMenu : MonoBehaviour
         isTransitioning = true;
         StartCoroutine(FadeThenLoad(sceneName));
     }
+    public void GoToMainMenuDirectly()
+    {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        StartCoroutine(FadeThenLoadIndex(0));
+    }
 
+    IEnumerator FadeThenLoadIndex(int buildIndex)
+    {
+        if (menuCanvasGroup != null)
+            menuCanvasGroup.interactable = false;
+
+        if (fadeOverlay != null)
+        {
+            fadeOverlay.blocksRaycasts = true;
+            float t = 0f;
+            while (t < sceneFadeDuration)
+            {
+                t += Time.deltaTime;
+                fadeOverlay.alpha = Mathf.Clamp01(t / sceneFadeDuration);
+                yield return null;
+            }
+            fadeOverlay.alpha = 1f;
+        }
+
+        SceneManager.LoadScene(buildIndex);
+    }
     IEnumerator FadeThenLoad(string sceneName)
     {
         if (menuCanvasGroup != null)

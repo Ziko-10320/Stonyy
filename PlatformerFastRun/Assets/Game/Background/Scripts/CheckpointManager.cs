@@ -10,6 +10,7 @@ public class CheckpointManager : MonoBehaviour
     Checkpoint lastCheckpoint;
     Vector3 defaultSpawnPosition;
     int lastCheckpointBossPhase = 0; // ? defaults to Phase1
+    bool lastCheckpointFaceLeft = false;
 
     void Awake()
     {
@@ -25,7 +26,8 @@ public class CheckpointManager : MonoBehaviour
             if (lastCheckpoint != null && lastCheckpoint.Index < killWalls.Length && killWalls[lastCheckpoint.Index] != null)
                 killWalls[lastCheckpoint.Index].SetActive(false);
             lastCheckpoint = checkpoint;
-            lastCheckpointBossPhase = checkpoint.BossPhase; // ? record phase alongside position
+            lastCheckpointBossPhase = checkpoint.BossPhase;
+            lastCheckpointFaceLeft = checkpoint.FaceLeftOnSpawn; 
             if (checkpoint.Index < killWalls.Length && killWalls[checkpoint.Index] != null)
                 killWalls[checkpoint.Index].SetActive(true);
         }
@@ -44,7 +46,10 @@ public class CheckpointManager : MonoBehaviour
     {
         return lastCheckpoint != null ? lastCheckpoint.Position : defaultSpawnPosition;
     }
-
+    public bool GetLastCheckpointFaceLeft()
+    {
+        return lastCheckpoint != null ? lastCheckpoint.FaceLeftOnSpawn : lastCheckpointFaceLeft;
+    }
     // ? NEW: call this wherever your existing respawn logic already moves the player
     public void RespawnBoss()
     {

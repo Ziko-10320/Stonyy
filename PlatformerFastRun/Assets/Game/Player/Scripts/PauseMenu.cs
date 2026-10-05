@@ -1,18 +1,20 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
-
+using System.Collections;
 public class PauseMenu : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] CanvasGroup pauseCanvasGroup; // panel with Resume/Retry/Menu buttons
     [SerializeField] PlayerMovement playerMovement;
     [SerializeField] PlayerHealth playerHealth;
-
+    [SerializeField] CountdownController countdownController;
     [Header("Pause Key (optional)")]
     [SerializeField] bool allowKeyToggle = true;
     [SerializeField] Key pauseKey = Key.Escape;
-
+    [Header("Pause Fade")]
+    [SerializeField] CanvasGroup pauseFadeOverlay; // the new image's CanvasGroup, alpha starts at 0
+    [SerializeField] float pauseFadeDuration = 0.5f;
     [Header("Scenes")]
     [SerializeField] string menuSceneName;
 
@@ -50,27 +52,49 @@ public class PauseMenu : MonoBehaviour
     // Hook this up to your Resume button's OnClick
     public void Resume()
     {
-        isPaused = false;
-        Time.timeScale = 1f;
+        SetMenuVisible(false); // panel closes immediately
 
-        if (playerMovement != null) playerMovement.enabled = true;
-        if (playerHealth != null) playerHealth.enabled = true;
+        countdownController.RunCountdown(() =>
+        {
+            isPaused = false;
+            Time.timeScale = 1f;
 
-        SetMenuVisible(false);
+            if (playerMovement != null) playerMovement.enabled = true;
+            if (playerHealth != null) playerHealth.enabled = true;
+        });
     }
 
     // Hook this up to the pause menu's Retry button
     public void OnRetryPressed()
     {
         Time.timeScale = 1f;
-        SceneLoader.Instance.LoadScene(SceneManager.GetActiveScene().name);
+        StartCoroutine(FadeThenLoadScene(SceneManager.GetActiveScene().name));
     }
 
     // Hook this up to the pause menu's "Back to Menu" button
     public void OnMenuPressed()
     {
         Time.timeScale = 1f;
-        SceneLoader.Instance.LoadScene(menuSceneName);
+        StartCoroutine(FadeThenLoadScene(menuSceneName));
+    }
+
+    IEnumerator FadeThenLoadScene(string sceneName)
+    {
+        if (pauseFadeOverlay != null)
+        {
+            pauseFadeOverlay.blocksRaycasts = true;
+            float t = 0f;
+            while (t < pauseFadeDuration)
+            {
+                t += Time.unscaledDeltaTime;
+                pauseFadeOverlay.alpha = Mathf.Clamp01(t / pauseFadeDuration);
+                yield return null;
+            }
+            pauseFadeOverlay.alpha = 1f;
+            yield return null; // same one-frame fix from SceneLoader — let the full black frame render
+        }
+
+        SceneLoader.Instance.LoadScene(sceneName);
     }
 
     void SetMenuVisible(bool visible)

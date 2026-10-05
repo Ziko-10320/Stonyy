@@ -1000,12 +1000,15 @@ public class PlayerMovement : MonoBehaviour
     }
     public void ResetDirection()
     {
-        runDirection = 1f;
+        SetFacingDirection(false);
+    }
+    public void SetFacingDirection(bool faceLeft)
+    {
+        runDirection = faceLeft ? -1f : 1f;
         Vector3 s = transform.localScale;
-        s.x = Mathf.Abs(s.x); // force positive = facing right
+        s.x = faceLeft ? -Mathf.Abs(s.x) : Mathf.Abs(s.x);
         transform.localScale = s;
     }
-
     IEnumerator DoHitStop(float duration, float timeScale)
     {
         Time.timeScale = timeScale;

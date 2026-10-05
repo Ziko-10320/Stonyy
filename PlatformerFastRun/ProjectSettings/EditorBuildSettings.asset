@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 3aa5bd936ccdbd84fb12c14dff42285e
   - enabled: 1
+    path: Assets/Scenes/RealTuto.unity
+    guid: 9731889c5e53e564c9c5640107a6ecdd
+  - enabled: 1
+    path: Assets/Scenes/TUTO II.unity
+    guid: 364e1607ba8ffee44b376cb47376fc02
+  - enabled: 1
+    path: Assets/Scenes/Tuto III.unity
+    guid: e0780ab67ff92b94abfa7c03fefa25e4
+  - enabled: 1
     path: Assets/Scenes/Lvl 1.unity
     guid: 51c859ec4adbf6142ac5e08a751ecad8
   - enabled: 1
@@ -22,19 +31,22 @@ EditorBuildSettings:
     guid: 472f5c3cfe2a91d4c974b5ef49afdf4e
   - enabled: 1
     path: Assets/Scenes/Lvl 5.unity
-    guid: 143fcae844cb74b4bad39634e2bc4a1f
+    guid: 15bc0f9763850ed4397b7571026fbc68
+  - enabled: 1
+    path: Assets/Scenes/RealMenu.unity
+    guid: 010f440ba66160846812afba309ddb8b
   - enabled: 1
     path: Assets/Scenes/Lvl 6.unity
-    guid: df584da1e139b714395bdeb8d97d416d
+    guid: 40eb5041ef3fcb94993967e19b73fad2
   - enabled: 1
     path: Assets/Scenes/Lvl 7.unity
     guid: 1bc95ac9452aaab4abc64f7c83dd2160
   - enabled: 1
     path: Assets/Scenes/Lvl 8.unity
-    guid: 40eb5041ef3fcb94993967e19b73fad2
+    guid: ae9b9d55b0e500c49b8ed79a9a9b28ed
   - enabled: 1
     path: Assets/Scenes/Lvl 9.unity
-    guid: 15bc0f9763850ed4397b7571026fbc68
+    guid: e3cbb8156eab1194bb82ec0db48a872b
   - enabled: 1
     path: Assets/Scenes/BossLvl.unity
     guid: 53e04a5e378ccd548bbdd3a0f0afaa33

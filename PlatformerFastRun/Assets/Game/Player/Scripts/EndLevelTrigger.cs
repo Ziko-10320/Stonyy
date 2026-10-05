@@ -20,10 +20,12 @@ public class EndLevelTrigger : MonoBehaviour
 
     [Header("Optional: disable camera follow script during cutscene")]
     [SerializeField] MonoBehaviour cameraFollowScriptToDisable;
-
+    [Header("Level Progress")]
+    [SerializeField] string thisLevelId;
     bool triggered;
 
     [Header("End Menu")]
+    [SerializeField] bool showEndMenu = true;
     [SerializeField] EndLevelMenu endLevelMenu;
     [SerializeField] float delayBeforeMenu = 2f; // time for end-level animations to play out
 
@@ -33,7 +35,7 @@ public class EndLevelTrigger : MonoBehaviour
         if (!other.CompareTag("Player")) return; // make sure your player GameObject is tagged "Player"
 
         triggered = true;
-
+        LevelProgress.SetCompleted(thisLevelId);
         var movement = other.GetComponent<PlayerMovement>();
         var health = other.GetComponent<PlayerHealth>();
         var anim = other.GetComponent<Animator>();
@@ -89,7 +91,11 @@ public class EndLevelTrigger : MonoBehaviour
     IEnumerator ShowMenuAfterDelay()
     {
         yield return new WaitForSeconds(delayBeforeMenu);
-        if (endLevelMenu != null)
+        if (endLevelMenu == null) yield break;
+
+        if (showEndMenu)
             endLevelMenu.ShowMenu();
+        else
+            endLevelMenu.GoToMainMenuDirectly();
     }
 }

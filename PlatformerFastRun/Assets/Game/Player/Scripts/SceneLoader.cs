@@ -7,10 +7,11 @@ public class SceneLoader : MonoBehaviour
     public static SceneLoader Instance { get; private set; }
 
     [Header("Screen Transition")]
-    [SerializeField] CanvasGroup fadeOverlay;   // full-screen black Image's CanvasGroup, alpha 0 at start
+    [SerializeField] CanvasGroup fadeOverlay;
     [SerializeField] float fadeDuration = 0.5f;
 
     bool isTransitioning;
+    Coroutine activeFadeRoutine; // add this
 
     void Awake()
     {
@@ -36,8 +37,12 @@ public class SceneLoader : MonoBehaviour
     {
         if (isTransitioning || string.IsNullOrEmpty(sceneName)) return;
         isTransitioning = true;
-        Time.timeScale = 1f; // safety: never load a new scene while paused/frozen
-        StartCoroutine(FadeThenLoad(sceneName));
+        Time.timeScale = 1f;
+
+        if (activeFadeRoutine != null)
+            StopCoroutine(activeFadeRoutine); // add this — kill any leftover fade-in first
+
+        activeFadeRoutine = StartCoroutine(FadeThenLoad(sceneName));
     }
 
     IEnumerator FadeThenLoad(string sceneName)
@@ -48,18 +53,19 @@ public class SceneLoader : MonoBehaviour
             float t = 0f;
             while (t < fadeDuration)
             {
-                t += Time.unscaledDeltaTime; // unscaled so it still fades even if timeScale is 0
+                t += Time.unscaledDeltaTime;
                 fadeOverlay.alpha = Mathf.Clamp01(t / fadeDuration);
                 yield return null;
             }
             fadeOverlay.alpha = 1f;
+            yield return null;
         }
 
         SceneManager.LoadScene(sceneName);
         isTransitioning = false;
 
         if (fadeOverlay != null)
-            StartCoroutine(FadeIn());
+            activeFadeRoutine = StartCoroutine(FadeIn()); // add this — track it instead of fire-and-forget
     }
 
     IEnumerator FadeIn()
@@ -74,5 +80,6 @@ public class SceneLoader : MonoBehaviour
         }
         fadeOverlay.alpha = 0f;
         fadeOverlay.blocksRaycasts = false;
+        activeFadeRoutine = null;
     }
 }

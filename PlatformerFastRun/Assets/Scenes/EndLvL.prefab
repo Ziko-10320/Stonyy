@@ -376,7 +376,7 @@ Transform:
   m_GameObject: {fileID: 4018758026891033659}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 554.94, y: -123.97, z: 0}
+  m_LocalPosition: {x: 30.630005, y: 90.859985, z: 7.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -398,7 +398,7 @@ MonoBehaviour:
   playerEndLevelTrigger: EndLevel
   friendEndLevelTrigger: FriendEndLevel
   targetCamera: {fileID: 0}
-  zoomFocusPoint: {fileID: 0}
+  zoomFocusPoint: {fileID: 5629887668769514880}
   zoomedOrthoSize: 10
   zoomDuration: 1
   zoomEase:
@@ -427,6 +427,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   followFocusPointPosition: 1
   cameraFollowScriptToDisable: {fileID: 0}
+  thisLevelId: RealTuto
+  showEndMenu: 0
   endLevelMenu: {fileID: 8712629531448379253}
   delayBeforeMenu: 2.7
 --- !u!58 &4917291280932087794
@@ -540,12 +542,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.7
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -682,7 +684,7 @@ Transform:
   m_GameObject: {fileID: 6496025729990902002}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 546.93, y: -122.31, z: 0}
+  m_LocalPosition: {x: 23.93, y: 89.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -886,7 +888,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &6695042040593844609
 MonoBehaviour:
@@ -900,12 +902,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.7
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1119,8 +1121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EndLevelMenu
   menuCanvasGroup: {fileID: 2728510692797170919}
   menuFadeInDuration: 0.5
-  retrySceneName: Lvl 1
-  nextLevelSceneName: Lvl 2
+  retrySceneName: RealTuto
+  nextLevelSceneName: TUTO II
   fadeOverlay: {fileID: 2551113241315893526}
   sceneFadeDuration: 0.75
 --- !u!1 &8569777892977455266
@@ -1248,17 +1250,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: StonyFriend
       objectReference: {fileID: 0}
+    - target: {fileID: 3236924859234343925, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
+      propertyPath: m_Color.b
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236924859234343925, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
+      propertyPath: m_Color.g
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 3236924859234343925, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
+      propertyPath: m_Color.r
+      value: 0.735849
+      objectReference: {fileID: 0}
     - target: {fileID: 6779865115142927310, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 549.11
+      value: 24.8
       objectReference: {fileID: 0}
     - target: {fileID: 6779865115142927310, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -127.86
+      value: 86.97
       objectReference: {fileID: 0}
     - target: {fileID: 6779865115142927310, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 7.66
       objectReference: {fileID: 0}
     - target: {fileID: 6779865115142927310, guid: 4c69ddad38598fa45a514bf881e51975, type: 3}
       propertyPath: m_LocalRotation.w

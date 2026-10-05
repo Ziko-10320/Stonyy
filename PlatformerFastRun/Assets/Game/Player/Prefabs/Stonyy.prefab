@@ -35557,6 +35557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 1
   invincibilityDuration: 0.5
+  maxLives: 10
 --- !u!114 &7866773605681568590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35564,12 +35565,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7409048736035635135}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11471fc1c5f7dc34da315c5febd24cf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchControls
   playerMovement: {fileID: 1628740215641033092}
+  touchControlsEnabled: 1
 --- !u!1 &7765848774506630223
 GameObject:
   m_ObjectHideFlags: 0

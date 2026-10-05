@@ -1,17 +1,25 @@
 ﻿using System.Collections;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
+using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
     [SerializeField] int maxHealth = 3;
     [SerializeField] float invincibilityDuration = 1.5f;
+    [Header("Lives")]
+    [SerializeField] int maxLives = 10;
+    int currentLives;
 
+    public int CurrentLives => currentLives;
     int currentHealth;
     float invincibilityTimer;
     bool isInvincible;
     bool isDead;
-
+    [Header("Lives UI")]
+    [SerializeField] TextMeshProUGUI livesText;
+    [Header("Death Panel")]
+    [SerializeField] GameObject deathPanel;
     PlayerMovement movement;
     CheckpointManager checkpointManager;
 
@@ -30,10 +38,14 @@ public class PlayerHealth : MonoBehaviour
         anim = GetComponent<Animator>();
         checkpointManager = FindFirstObjectByType<CheckpointManager>();
         currentHealth = maxHealth;
-
-        
+        currentLives = maxLives;
+        UpdateLivesUI();
     }
-
+    void UpdateLivesUI()
+    {
+        if (livesText != null)
+            livesText.text = "" + currentLives;
+    }
     void Update()
     {
         if (isInvincible)
@@ -43,7 +55,11 @@ public class PlayerHealth : MonoBehaviour
                 isInvincible = false;
         }
     }
-
+    public void RegenerateLives()
+    {
+        currentLives = maxLives;
+        UpdateLivesUI();
+    }
     public void TakeDamage(int amount = 1)
     {
         if (isInvincible || isDead) return;
@@ -62,11 +78,29 @@ public class PlayerHealth : MonoBehaviour
             // flash feedback — optional, hook your animator here
         }
     }
+    IEnumerator LevelRestartSequence()
+    {
+        DestroyAllThrownSticks();
+        movement.enabled = false;
+        movement.RespawnReset();
+        anim.SetBool("Slide", false);
+        anim.SetBool("WallSlide", false);
+        anim.SetBool("IdleWall", false);
+        anim.SetTrigger(ANIM_DEATH);
+        yield return new WaitForSeconds(0.5f);
 
+        if (deathPanel != null)
+            deathPanel.SetActive(true);
+    }
     void Die()
     {
         isDead = true;
-        StartCoroutine(DeathAndRespawnSequence());
+        currentLives--;
+        UpdateLivesUI();
+        if (currentLives <= 0)
+            StartCoroutine(LevelRestartSequence());
+        else
+            StartCoroutine(DeathAndRespawnSequence());
     }
     void DestroyAllThrownSticks()
     {
@@ -138,11 +172,20 @@ public class PlayerHealth : MonoBehaviour
 
         movement.enabled = true;
         movement.RespawnReset();
-        movement.ResetDirection();
+        movement.SetFacingDirection(checkpointManager != null && checkpointManager.GetLastCheckpointFaceLeft());
 
         isDead = false;
         isInvincible = true;
         invincibilityTimer = invincibilityDuration;
+    }
+    public void OnReplayButtonPressed()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void OnMainMenuButtonPressed()
+    {
+        SceneManager.LoadScene(0);
     }
     public void InstantKill()
     {
