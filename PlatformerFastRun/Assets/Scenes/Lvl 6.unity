@@ -29199,6 +29199,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &846043174
@@ -30367,6 +30369,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e525e2468c0f9c40a41e9b58713b078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+--- !u!114 &867807147 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 689139745396699431, guid: e746900e9f809d04c83017dc53930b8e, type: 3}
+  m_PrefabInstance: {fileID: 867807139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d2d27b50ad1eb4c910b6402ddcb9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSFX
 --- !u!1 &871291956
 GameObject:
   m_ObjectHideFlags: 0
@@ -49717,6 +49730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelStartCountdown
   countdownController: {fileID: 1994615764}
   playerMovement: {fileID: 867807142}
+  playerSFX: {fileID: 867807147}
 --- !u!4 &1324380023
 Transform:
   m_ObjectHideFlags: 0
@@ -76542,7 +76556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 597179405196435611, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 830
+      value: 454
       objectReference: {fileID: 0}
     - target: {fileID: 597179405196435611, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -76554,15 +76568,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 734870668422948274, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 734870668422948274, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_ReferenceResolution.x
-      value: 1080
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 734870668422948274, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_ReferenceResolution.y
-      value: 1920
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 1325527569005702038, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -76578,15 +76592,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1623677325098396755, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_MatchWidthOrHeight
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1623677325098396755, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_ReferenceResolution.x
-      value: 1080
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 1623677325098396755, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_ReferenceResolution.y
-      value: 1920
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4152916971427727077, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_Name
@@ -76632,6 +76646,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5357676037269704404, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5665446826579642264, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -76640,6 +76658,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnMainMenuButtonPressed
       objectReference: {fileID: 0}
+    - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
+      propertyPath: playerSFX
+      value: 
+      objectReference: {fileID: 867807147}
     - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: playerHealth
       value: 

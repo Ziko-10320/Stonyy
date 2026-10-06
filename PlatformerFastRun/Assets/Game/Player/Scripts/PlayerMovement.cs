@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
     bool isUpwardDashing;
     float upwardDashTimer;
     bool pauseAutoRun;
-
+    PlayerSFX sfx;
     public ShakeData CameraShakeDeath;
 
     [Header("Hit Stop")]
@@ -168,7 +168,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
+        sfx = GetComponent<PlayerSFX>();
         var map = inputActions.FindActionMap("Player", throwIfNotFound: true);
         mvmtAction = map.FindAction("Mvmt", throwIfNotFound: true);
         slideAction = map.FindAction("Slide", throwIfNotFound: true);
@@ -315,6 +315,12 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = fallGravityScale;
         }
         btnPressedThisFrame = false;
+        if (sfx != null)
+        {
+            bool isMoving = Mathf.Abs(rb.linearVelocity.x) > 0.05f;
+            sfx.SetRunLoop(isGrounded && currentState != State.Slide && isMoving);
+            sfx.SetSlideLoop(currentState == State.Slide);
+        }
     }
 
     void FixedUpdate()
@@ -839,6 +845,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ThrowStick()
     {
+        sfx?.PlayStickThrowSound();
         hasStick = false;
         heldStickObject.gameObject.SetActive(false);
 

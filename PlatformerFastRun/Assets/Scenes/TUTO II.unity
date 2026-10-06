@@ -2017,6 +2017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &20551706
@@ -25703,6 +25705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &380004154
@@ -40359,6 +40363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &600244509
@@ -44352,6 +44358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelStartCountdown
   countdownController: {fileID: 1790198378}
   playerMovement: {fileID: 1144545658}
+  playerSFX: {fileID: 1144545659}
 --- !u!4 &657777057
 Transform:
   m_ObjectHideFlags: 0
@@ -75756,6 +75763,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e525e2468c0f9c40a41e9b58713b078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+--- !u!114 &1144545659 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 689139745396699431, guid: e746900e9f809d04c83017dc53930b8e, type: 3}
+  m_PrefabInstance: {fileID: 1144545656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d2d27b50ad1eb4c910b6402ddcb9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSFX
 --- !u!1 &1147432252
 GameObject:
   m_ObjectHideFlags: 0
@@ -114513,6 +114531,10 @@ PrefabInstance:
       value: OnMainMenuButtonPressed
       objectReference: {fileID: 0}
     - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
+      propertyPath: playerSFX
+      value: 
+      objectReference: {fileID: 1144545659}
+    - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 1144545657}
@@ -132042,6 +132064,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &2050569663

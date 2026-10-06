@@ -10,7 +10,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("Lives")]
     [SerializeField] int maxLives = 10;
     int currentLives;
-
+    PlayerSFX sfx;
     public int CurrentLives => currentLives;
     int currentHealth;
     float invincibilityTimer;
@@ -34,6 +34,7 @@ public class PlayerHealth : MonoBehaviour
     
     void Awake()
     {
+        sfx = GetComponent<PlayerSFX>();
         movement = GetComponent<PlayerMovement>();
         anim = GetComponent<Animator>();
         checkpointManager = FindFirstObjectByType<CheckpointManager>();
@@ -95,6 +96,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         isDead = true;
+        sfx?.PlayRandomDeathSound();
         currentLives--;
         UpdateLivesUI();
         if (currentLives <= 0)

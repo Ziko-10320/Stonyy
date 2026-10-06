@@ -4,7 +4,8 @@ using UnityEngine;
 public class BreakableBox : MonoBehaviour
 {
     public static readonly List<BreakableBox> All = new List<BreakableBox>();
-
+    [SerializeField] AudioSource audioSource; // plain AudioSource on this box, Play On Awake unchecked
+    [SerializeField] AudioClip breakSound;
     [SerializeField] bool destroyStickOnBreak = false;
     [SerializeField] Animator anim;
     const string ANIM_BREAK = "BoxDestruction"; // must match your Trigger parameter name
@@ -35,6 +36,9 @@ public class BreakableBox : MonoBehaviour
     {
         if (isBroken) return;
         isBroken = true;
+
+        if (audioSource != null && breakSound != null)
+            audioSource.PlayOneShot(breakSound); // add this
 
         if (anim != null)
             anim.SetTrigger(ANIM_BREAK);

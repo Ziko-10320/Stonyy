@@ -17,7 +17,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] float pauseFadeDuration = 0.5f;
     [Header("Scenes")]
     [SerializeField] string menuSceneName;
-
+    [SerializeField] PlayerSFX playerSFX;
     bool isPaused;
 
     void Awake()
@@ -45,6 +45,11 @@ public class PauseMenu : MonoBehaviour
 
         if (playerMovement != null) playerMovement.enabled = false;
         if (playerHealth != null) playerHealth.enabled = false;
+        if (playerSFX != null)
+        {
+            playerSFX.SetRunLoop(false);
+            playerSFX.SetSlideLoop(false);
+        }
 
         SetMenuVisible(true);
     }

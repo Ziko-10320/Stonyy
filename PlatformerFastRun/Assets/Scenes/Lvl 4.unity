@@ -2940,6 +2940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &33144876
@@ -5212,6 +5214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &61061587
@@ -8711,6 +8715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &94965160
@@ -9266,6 +9272,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &101374319
@@ -13263,6 +13271,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &157849338
@@ -25915,6 +25925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &332530788
@@ -28441,6 +28453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &363854739
@@ -33994,6 +34008,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &438090189
@@ -34715,6 +34731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &447507739
@@ -38269,6 +38287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &486592477
@@ -41119,6 +41139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &524181189
@@ -41881,6 +41903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &533069954
@@ -45239,6 +45263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &568974210
@@ -47939,6 +47965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &598497189
@@ -52317,6 +52345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &664488880
@@ -54165,6 +54195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &678162896
@@ -62036,6 +62068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &768169180
@@ -65722,6 +65756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &833565515
@@ -77864,6 +77900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &964692426
@@ -84935,6 +84973,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1028681413
@@ -89109,6 +89149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1083384028
@@ -94790,6 +94832,10 @@ PrefabInstance:
       value: OnMainMenuButtonPressed
       objectReference: {fileID: 0}
     - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
+      propertyPath: playerSFX
+      value: 
+      objectReference: {fileID: 6302059566643388267}
+    - target: {fileID: 8622306359040176324, guid: ebb80f098ee76c341a33dd51ea25edcd, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 6302059566643388265}
@@ -97579,6 +97625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1176494469
@@ -106162,6 +106210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1281632161
@@ -108160,6 +108210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1308755534
@@ -111373,6 +111425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1342780916
@@ -112324,6 +112378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1358017416
@@ -119579,6 +119635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1447376344
@@ -120839,6 +120897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1459683691
@@ -122524,6 +122584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1480397038
@@ -122783,6 +122845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1482145625
@@ -126219,6 +126283,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1529436355
@@ -127780,6 +127846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1555575419
@@ -135158,6 +135226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1644884919
@@ -139928,6 +139998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1709217889
@@ -146758,6 +146830,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1795528488
@@ -153401,6 +153475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1863920576
@@ -155756,6 +155832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &1890710161
@@ -158718,6 +158796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 0}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!61 &1933382466
@@ -165464,6 +165544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelStartCountdown
   countdownController: {fileID: 1143390898}
   playerMovement: {fileID: 6302059566643388266}
+  playerSFX: {fileID: 6302059566643388267}
 --- !u!4 &2053134769
 Transform:
   m_ObjectHideFlags: 0
@@ -166680,6 +166761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &2064945124
@@ -171886,6 +171969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a4565ab0f808f74e8aac4fcf06df2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BreakableBox
+  audioSource: {fileID: 0}
+  breakSound: {fileID: 8300000, guid: 439831cbd08d7e94cb530b5015b202f5, type: 3}
   destroyStickOnBreak: 0
   anim: {fileID: 0}
 --- !u!212 &2123908160
@@ -173126,6 +173211,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e525e2468c0f9c40a41e9b58713b078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+--- !u!114 &6302059566643388267 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 689139745396699431, guid: e746900e9f809d04c83017dc53930b8e, type: 3}
+  m_PrefabInstance: {fileID: 6302059566643388263}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d2d27b50ad1eb4c910b6402ddcb9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSFX
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

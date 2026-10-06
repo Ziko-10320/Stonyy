@@ -4289,6 +4289,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.025
+    functionName: PlaySound
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 902818c7c29b9d04ca06ca0ea3712e43, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.175
     functionName: OnAirDashAnimationEnd
     data: 

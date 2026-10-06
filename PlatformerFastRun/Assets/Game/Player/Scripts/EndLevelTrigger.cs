@@ -39,11 +39,13 @@ public class EndLevelTrigger : MonoBehaviour
         var movement = other.GetComponent<PlayerMovement>();
         var health = other.GetComponent<PlayerHealth>();
         var anim = other.GetComponent<Animator>();
-
+        var sfx = other.GetComponent<PlayerSFX>();
         if (movement != null)
         {
             movement.StopForCutscene(); // zero velocity/gravity, clear anim flags
-            movement.enabled = false;   // stops Update/FixedUpdate + input entirely
+            movement.enabled = false;
+            sfx?.SetRunLoop(false);
+            sfx?.SetSlideLoop(false);// stops Update/FixedUpdate + input entirely
         }
 
         if (health != null)
