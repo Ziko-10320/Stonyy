@@ -40,11 +40,22 @@ public class SceneLoader : MonoBehaviour
         Time.timeScale = 1f;
 
         if (activeFadeRoutine != null)
-            StopCoroutine(activeFadeRoutine); // add this — kill any leftover fade-in first
+            StopCoroutine(activeFadeRoutine);
 
         activeFadeRoutine = StartCoroutine(FadeThenLoad(sceneName));
     }
 
+    public void LoadScene(int buildIndex)
+    {
+        if (isTransitioning) return;
+        isTransitioning = true;
+        Time.timeScale = 1f;
+
+        if (activeFadeRoutine != null)
+            StopCoroutine(activeFadeRoutine);
+
+        activeFadeRoutine = StartCoroutine(FadeThenLoadByIndex(buildIndex));
+    }
     IEnumerator FadeThenLoad(string sceneName)
     {
         if (fadeOverlay != null)
@@ -65,7 +76,29 @@ public class SceneLoader : MonoBehaviour
         isTransitioning = false;
 
         if (fadeOverlay != null)
-            activeFadeRoutine = StartCoroutine(FadeIn()); // add this — track it instead of fire-and-forget
+            activeFadeRoutine = StartCoroutine(FadeIn());
+    }
+    IEnumerator FadeThenLoadByIndex(int buildIndex)
+    {
+        if (fadeOverlay != null)
+        {
+            fadeOverlay.blocksRaycasts = true;
+            float t = 0f;
+            while (t < fadeDuration)
+            {
+                t += Time.unscaledDeltaTime;
+                fadeOverlay.alpha = Mathf.Clamp01(t / fadeDuration);
+                yield return null;
+            }
+            fadeOverlay.alpha = 1f;
+            yield return null;
+        }
+
+        SceneManager.LoadScene(buildIndex);
+        isTransitioning = false;
+
+        if (fadeOverlay != null)
+            activeFadeRoutine = StartCoroutine(FadeIn());
     }
 
     IEnumerator FadeIn()

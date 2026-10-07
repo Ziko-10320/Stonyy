@@ -17065,7 +17065,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 903989897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 903989900}
+        m_TargetAssemblyTypeName: SceneButton, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &903989897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17131,10 +17143,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 903989894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a48621e3aa30158439522ad4b17079b0, type: 3}
+  m_Script: {fileID: 11500000, guid: f17f26eea2a6f474f895ab9064d7a463, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelSelectButton
-  sceneToLoad: RealMenu
+  m_EditorClassIdentifier: Assembly-CSharp::SceneButton
+  sceneIndex: 9
 --- !u!1 &905844139
 GameObject:
   m_ObjectHideFlags: 0
@@ -23805,7 +23817,7 @@ MonoBehaviour:
   hoverScale: 1.1
   pressedScale: 1
   scaleSpeed: 15
-  hoverSound: {fileID: 0}
+  hoverSound: {fileID: 8300000, guid: 77e2b217dc82194498cd9202d3dff88b, type: 3}
   clickSound: {fileID: 0}
   soundVolume: 0.7
 --- !u!1 &1205360461

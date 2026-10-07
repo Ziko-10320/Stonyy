@@ -34,6 +34,8 @@ public class BreakableBox : MonoBehaviour
 
     public void Break()
     {
+        if (audioSource != null && breakSound != null && !AudioMuteManager.GetOrCreate().IsMuted)
+            audioSource.PlayOneShot(breakSound);
         if (isBroken) return;
         isBroken = true;
 

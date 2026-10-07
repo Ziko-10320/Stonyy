@@ -19,34 +19,36 @@ public class PlayerSFX : MonoBehaviour
     // each event just passes in whichever clip it needs as the Object parameter
     public void PlaySound(AudioClip clip)
     {
-        if (clip != null)
-            sfxSource.PlayOneShot(clip);
+        if (clip == null || AudioMuteManager.GetOrCreate().IsMuted) return;
+        sfxSource.PlayOneShot(clip);
     }
 
     public void PlayRandomDeathSound()
     {
-        if (deathClips == null || deathClips.Length == 0) return;
+        if (deathClips == null || deathClips.Length == 0 || AudioMuteManager.GetOrCreate().IsMuted) return;
         AudioClip clip = deathClips[Random.Range(0, deathClips.Length)];
         sfxSource.PlayOneShot(clip);
     }
 
     public void PlayStickThrowSound()
     {
-        if (stickThrowClip != null)
-            sfxSource.PlayOneShot(stickThrowClip);
+        if (stickThrowClip == null || AudioMuteManager.GetOrCreate().IsMuted) return;
+        sfxSource.PlayOneShot(stickThrowClip);
     }
 
     public void SetRunLoop(bool shouldPlay)
     {
         if (runLoopSource == null) return;
-        if (shouldPlay && !runLoopSource.isPlaying) runLoopSource.Play();
-        else if (!shouldPlay && runLoopSource.isPlaying) runLoopSource.Stop();
+        bool play = shouldPlay && !AudioMuteManager.GetOrCreate().IsMuted;
+        if (play && !runLoopSource.isPlaying) runLoopSource.Play();
+        else if (!play && runLoopSource.isPlaying) runLoopSource.Stop();
     }
 
     public void SetSlideLoop(bool shouldPlay)
     {
         if (slideLoopSource == null) return;
-        if (shouldPlay && !slideLoopSource.isPlaying) slideLoopSource.Play();
-        else if (!shouldPlay && slideLoopSource.isPlaying) slideLoopSource.Stop();
+        bool play = shouldPlay && !AudioMuteManager.GetOrCreate().IsMuted;
+        if (play && !slideLoopSource.isPlaying) slideLoopSource.Play();
+        else if (!play && slideLoopSource.isPlaying) slideLoopSource.Stop();
     }
 }

@@ -47,7 +47,8 @@ public class ButtonScaler : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void OnPointerDown(PointerEventData eventData)
     {
         targetScale = initialScale * pressedScale;
-        if (clickSound != null) audioSource.PlayOneShot(clickSound, soundVolume);
+        if (clickSound != null && !AudioMuteManager.GetOrCreate().IsMuted)
+            audioSource.PlayOneShot(clickSound, soundVolume);
     }
 
     // --- This function is automatically called when the mouse is RELEASED ---
@@ -71,7 +72,8 @@ public class ButtonScaler : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         isPointerOver = true;
         targetScale = initialScale * hoverScale;
-        if (hoverSound != null) audioSource.PlayOneShot(hoverSound, soundVolume);
+        if (hoverSound != null && !AudioMuteManager.GetOrCreate().IsMuted)
+            audioSource.PlayOneShot(hoverSound, soundVolume);
     }
 
     // --- NEW: This function is automatically called when the mouse EXITS the button's area ---

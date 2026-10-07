@@ -16,7 +16,6 @@ public class AudioMuteManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         IsMuted = PlayerPrefs.GetInt("AudioMuted", 0) == 1;
-        ApplyMute();
     }
 
     public void ToggleMute()
@@ -24,11 +23,15 @@ public class AudioMuteManager : MonoBehaviour
         IsMuted = !IsMuted;
         PlayerPrefs.SetInt("AudioMuted", IsMuted ? 1 : 0);
         PlayerPrefs.Save();
-        ApplyMute();
     }
 
-    void ApplyMute()
+    public static AudioMuteManager GetOrCreate()
     {
-        AudioListener.volume = IsMuted ? 0f : 1f;
+        if (Instance == null)
+        {
+            GameObject go = new GameObject("AudioMuteManager");
+            go.AddComponent<AudioMuteManager>();
+        }
+        return Instance;
     }
 }
